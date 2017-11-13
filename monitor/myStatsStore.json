@@ -1,0 +1,1523 @@
+[
+  {
+    "timeStamp": 1510553304970,
+    "time": 1261,
+    "hash": "83838861269eebe17a4e",
+    "errors": [],
+    "size": 84380,
+    "assets": [
+      {
+        "name": "app.83838861269eebe17a4e.js",
+        "chunks": [
+          0
+        ],
+        "size": 2535,
+        "minified": true
+      },
+      {
+        "name": "i18n/ar.83838861269eebe17a4e.js",
+        "chunks": [
+          1
+        ],
+        "size": 8416,
+        "minified": true
+      },
+      {
+        "name": "i18n/de.83838861269eebe17a4e.js",
+        "chunks": [
+          2
+        ],
+        "size": 7603,
+        "minified": true
+      },
+      {
+        "name": "i18n/en.83838861269eebe17a4e.js",
+        "chunks": [
+          3
+        ],
+        "size": 7699,
+        "minified": true
+      },
+      {
+        "name": "i18n/es.83838861269eebe17a4e.js",
+        "chunks": [
+          4
+        ],
+        "size": 7711,
+        "minified": true
+      },
+      {
+        "name": "i18n/pt.83838861269eebe17a4e.js",
+        "chunks": [
+          5
+        ],
+        "size": 7747,
+        "minified": true
+      },
+      {
+        "name": "i18n/ru.83838861269eebe17a4e.js",
+        "chunks": [
+          6
+        ],
+        "size": 8263,
+        "minified": true
+      },
+      {
+        "name": "i18n/zh.83838861269eebe17a4e.js",
+        "chunks": [
+          7
+        ],
+        "size": 6898,
+        "minified": true
+      },
+      {
+        "name": "vendor.83838861269eebe17a4e.js",
+        "chunks": [
+          8
+        ],
+        "size": 24422,
+        "miniSize": 24609,
+        "minified": false
+      },
+      {
+        "name": "index.html",
+        "chunks": [],
+        "size": 3086
+      }
+    ],
+    "chunks": [
+      {
+        "size": 3729,
+        "files": [
+          "app.83838861269eebe17a4e.js"
+        ],
+        "modules": []
+      },
+      {
+        "size": 11047,
+        "files": [
+          "i18n/ar.83838861269eebe17a4e.js"
+        ],
+        "modules": []
+      },
+      {
+        "size": 11047,
+        "files": [
+          "i18n/de.83838861269eebe17a4e.js"
+        ],
+        "modules": []
+      },
+      {
+        "size": 11047,
+        "files": [
+          "i18n/en.83838861269eebe17a4e.js"
+        ],
+        "modules": []
+      },
+      {
+        "size": 11047,
+        "files": [
+          "i18n/es.83838861269eebe17a4e.js"
+        ],
+        "modules": []
+      },
+      {
+        "size": 11047,
+        "files": [
+          "i18n/pt.83838861269eebe17a4e.js"
+        ],
+        "modules": []
+      },
+      {
+        "size": 11047,
+        "files": [
+          "i18n/ru.83838861269eebe17a4e.js"
+        ],
+        "modules": []
+      },
+      {
+        "size": 11047,
+        "files": [
+          "i18n/zh.83838861269eebe17a4e.js"
+        ],
+        "modules": []
+      },
+      {
+        "size": 76296,
+        "files": [
+          "vendor.83838861269eebe17a4e.js"
+        ],
+        "modules": []
+      }
+    ]
+  },
+  {
+    "timeStamp": 1510556865751,
+    "time": 1027,
+    "hash": "9d34e78a0f93efeb736e",
+    "errors": [
+      "multi globalize globalize/dist/globalize-runtime/number globalize/dist/globalize-runtime/currency globalize/dist/globalize-runtime/date globalize/dist/globalize-runtime/message globalize/dist/globalize-runtime/plural globalize/dist/globalize-runtime/relative-time globalize/dist/globalize-runtime/unit\nModule not found: Error: Can't resolve 'globalize/dist/globalize-runtime' in '/Users/carlos/code/webpack-demo'\nresolve 'globalize/dist/globalize-runtime' in '/Users/carlos/code/webpack-demo'\n  Parsed request is a module\n  using description file: /Users/carlos/code/webpack-demo/package.json (relative path: .)\n    Field 'browser' doesn't contain a valid alias configuration\n  after using description file: /Users/carlos/code/webpack-demo/package.json (relative path: .)\n    resolve as module\n      /Users/carlos/code/node_modules doesn't exist or is not a directory\n      /Users/carlos/node_modules doesn't exist or is not a directory\n      /Users/node_modules doesn't exist or is not a directory\n      /node_modules doesn't exist or is not a directory\n      looking for modules in /Users/carlos/code/webpack-demo/node_modules\n        using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./node_modules)\n          Field 'browser' doesn't contain a valid alias configuration\n        after using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./node_modules)\n          using description file: /Users/carlos/code/webpack-demo/node_modules/globalize/package.json (relative path: ./dist/globalize-runtime)\n            no extension\n              Field 'browser' doesn't contain a valid alias configuration\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime is not a file\n            .es6 .js .ts\n              Field 'browser' doesn't contain a valid alias configuration\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime.es6 .js .ts doesn't exist\n            as directory\n              existing directory\n                using path: /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/index\n                  using description file: /Users/carlos/code/webpack-demo/node_modules/globalize/package.json (relative path: ./dist/globalize-runtime/index)\n                    no extension\n                      Field 'browser' doesn't contain a valid alias configuration\n                      /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/index doesn't exist\n                    .es6 .js .ts\n                      Field 'browser' doesn't contain a valid alias configuration\n                      /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/index.es6 .js .ts doesn't exist\n[/Users/carlos/code/node_modules]\n[/Users/carlos/node_modules]\n[/Users/node_modules]\n[/node_modules]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime.es6 .js .ts]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/index]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/index.es6 .js .ts]\n @ multi globalize globalize/dist/globalize-runtime/number globalize/dist/globalize-runtime/currency globalize/dist/globalize-runtime/date globalize/dist/globalize-runtime/message globalize/dist/globalize-runtime/plural globalize/dist/globalize-runtime/relative-time globalize/dist/globalize-runtime/unit",
+      "multi globalize globalize/dist/globalize-runtime/number globalize/dist/globalize-runtime/currency globalize/dist/globalize-runtime/date globalize/dist/globalize-runtime/message globalize/dist/globalize-runtime/plural globalize/dist/globalize-runtime/relative-time globalize/dist/globalize-runtime/unit\nModule not found: Error: Can't resolve 'globalize/dist/globalize-runtime/currency' in '/Users/carlos/code/webpack-demo'\nresolve 'globalize/dist/globalize-runtime/currency' in '/Users/carlos/code/webpack-demo'\n  Parsed request is a module\n  using description file: /Users/carlos/code/webpack-demo/package.json (relative path: .)\n    Field 'browser' doesn't contain a valid alias configuration\n  after using description file: /Users/carlos/code/webpack-demo/package.json (relative path: .)\n    resolve as module\n      /Users/carlos/code/node_modules doesn't exist or is not a directory\n      /Users/carlos/node_modules doesn't exist or is not a directory\n      /Users/node_modules doesn't exist or is not a directory\n      /node_modules doesn't exist or is not a directory\n      looking for modules in /Users/carlos/code/webpack-demo/node_modules\n        using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./node_modules)\n          Field 'browser' doesn't contain a valid alias configuration\n        after using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./node_modules)\n          using description file: /Users/carlos/code/webpack-demo/node_modules/globalize/package.json (relative path: ./dist/globalize-runtime/currency)\n            no extension\n              Field 'browser' doesn't contain a valid alias configuration\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/currency doesn't exist\n            .es6 .js .ts\n              Field 'browser' doesn't contain a valid alias configuration\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/currency.es6 .js .ts doesn't exist\n            as directory\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/currency doesn't exist\n[/Users/carlos/code/node_modules]\n[/Users/carlos/node_modules]\n[/Users/node_modules]\n[/node_modules]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/currency]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/currency.es6 .js .ts]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/currency]\n @ multi globalize globalize/dist/globalize-runtime/number globalize/dist/globalize-runtime/currency globalize/dist/globalize-runtime/date globalize/dist/globalize-runtime/message globalize/dist/globalize-runtime/plural globalize/dist/globalize-runtime/relative-time globalize/dist/globalize-runtime/unit",
+      "./.tmp-globalize-webpack/-Users-carlos-code-webpack-demo-app-index-js.js\nModule not found: Error: Can't resolve 'globalize/dist/globalize-runtime/currency' in '/Users/carlos/code/webpack-demo/.tmp-globalize-webpack'\nresolve 'globalize/dist/globalize-runtime/currency' in '/Users/carlos/code/webpack-demo/.tmp-globalize-webpack'\n  Parsed request is a module\n  using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./.tmp-globalize-webpack)\n    Field 'browser' doesn't contain a valid alias configuration\n  after using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./.tmp-globalize-webpack)\n    resolve as module\n      /Users/carlos/code/webpack-demo/.tmp-globalize-webpack/node_modules doesn't exist or is not a directory\n      /Users/carlos/code/node_modules doesn't exist or is not a directory\n      /Users/carlos/node_modules doesn't exist or is not a directory\n      /Users/node_modules doesn't exist or is not a directory\n      /node_modules doesn't exist or is not a directory\n      looking for modules in /Users/carlos/code/webpack-demo/node_modules\n        using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./node_modules)\n          Field 'browser' doesn't contain a valid alias configuration\n        after using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./node_modules)\n          using description file: /Users/carlos/code/webpack-demo/node_modules/globalize/package.json (relative path: ./dist/globalize-runtime/currency)\n            no extension\n              Field 'browser' doesn't contain a valid alias configuration\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/currency doesn't exist\n            .es6 .js .ts\n              Field 'browser' doesn't contain a valid alias configuration\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/currency.es6 .js .ts doesn't exist\n            as directory\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/currency doesn't exist\n[/Users/carlos/code/webpack-demo/.tmp-globalize-webpack/node_modules]\n[/Users/carlos/code/node_modules]\n[/Users/carlos/node_modules]\n[/Users/node_modules]\n[/node_modules]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/currency]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/currency.es6 .js .ts]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/currency]\n @ ./.tmp-globalize-webpack/-Users-carlos-code-webpack-demo-app-index-js.js 11:185-237\n @ ./app/index.js",
+      "multi globalize globalize/dist/globalize-runtime/number globalize/dist/globalize-runtime/currency globalize/dist/globalize-runtime/date globalize/dist/globalize-runtime/message globalize/dist/globalize-runtime/plural globalize/dist/globalize-runtime/relative-time globalize/dist/globalize-runtime/unit\nModule not found: Error: Can't resolve 'globalize/dist/globalize-runtime/date' in '/Users/carlos/code/webpack-demo'\nresolve 'globalize/dist/globalize-runtime/date' in '/Users/carlos/code/webpack-demo'\n  Parsed request is a module\n  using description file: /Users/carlos/code/webpack-demo/package.json (relative path: .)\n    Field 'browser' doesn't contain a valid alias configuration\n  after using description file: /Users/carlos/code/webpack-demo/package.json (relative path: .)\n    resolve as module\n      /Users/carlos/code/node_modules doesn't exist or is not a directory\n      /Users/carlos/node_modules doesn't exist or is not a directory\n      /Users/node_modules doesn't exist or is not a directory\n      /node_modules doesn't exist or is not a directory\n      looking for modules in /Users/carlos/code/webpack-demo/node_modules\n        using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./node_modules)\n          Field 'browser' doesn't contain a valid alias configuration\n        after using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./node_modules)\n          using description file: /Users/carlos/code/webpack-demo/node_modules/globalize/package.json (relative path: ./dist/globalize-runtime/date)\n            no extension\n              Field 'browser' doesn't contain a valid alias configuration\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/date doesn't exist\n            .es6 .js .ts\n              Field 'browser' doesn't contain a valid alias configuration\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/date.es6 .js .ts doesn't exist\n            as directory\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/date doesn't exist\n[/Users/carlos/code/node_modules]\n[/Users/carlos/node_modules]\n[/Users/node_modules]\n[/node_modules]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/date]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/date.es6 .js .ts]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/date]\n @ multi globalize globalize/dist/globalize-runtime/number globalize/dist/globalize-runtime/currency globalize/dist/globalize-runtime/date globalize/dist/globalize-runtime/message globalize/dist/globalize-runtime/plural globalize/dist/globalize-runtime/relative-time globalize/dist/globalize-runtime/unit",
+      "./.tmp-globalize-webpack/-Users-carlos-code-webpack-demo-app-index-js.js\nModule not found: Error: Can't resolve 'globalize/dist/globalize-runtime/date' in '/Users/carlos/code/webpack-demo/.tmp-globalize-webpack'\nresolve 'globalize/dist/globalize-runtime/date' in '/Users/carlos/code/webpack-demo/.tmp-globalize-webpack'\n  Parsed request is a module\n  using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./.tmp-globalize-webpack)\n    Field 'browser' doesn't contain a valid alias configuration\n  after using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./.tmp-globalize-webpack)\n    resolve as module\n      /Users/carlos/code/webpack-demo/.tmp-globalize-webpack/node_modules doesn't exist or is not a directory\n      /Users/carlos/code/node_modules doesn't exist or is not a directory\n      /Users/carlos/node_modules doesn't exist or is not a directory\n      /Users/node_modules doesn't exist or is not a directory\n      /node_modules doesn't exist or is not a directory\n      looking for modules in /Users/carlos/code/webpack-demo/node_modules\n        using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./node_modules)\n          Field 'browser' doesn't contain a valid alias configuration\n        after using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./node_modules)\n          using description file: /Users/carlos/code/webpack-demo/node_modules/globalize/package.json (relative path: ./dist/globalize-runtime/date)\n            no extension\n              Field 'browser' doesn't contain a valid alias configuration\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/date doesn't exist\n            .es6 .js .ts\n              Field 'browser' doesn't contain a valid alias configuration\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/date.es6 .js .ts doesn't exist\n            as directory\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/date doesn't exist\n[/Users/carlos/code/webpack-demo/.tmp-globalize-webpack/node_modules]\n[/Users/carlos/code/node_modules]\n[/Users/carlos/node_modules]\n[/Users/node_modules]\n[/node_modules]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/date]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/date.es6 .js .ts]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/date]\n @ ./.tmp-globalize-webpack/-Users-carlos-code-webpack-demo-app-index-js.js 11:239-287\n @ ./app/index.js",
+      "multi globalize globalize/dist/globalize-runtime/number globalize/dist/globalize-runtime/currency globalize/dist/globalize-runtime/date globalize/dist/globalize-runtime/message globalize/dist/globalize-runtime/plural globalize/dist/globalize-runtime/relative-time globalize/dist/globalize-runtime/unit\nModule not found: Error: Can't resolve 'globalize/dist/globalize-runtime/message' in '/Users/carlos/code/webpack-demo'\nresolve 'globalize/dist/globalize-runtime/message' in '/Users/carlos/code/webpack-demo'\n  Parsed request is a module\n  using description file: /Users/carlos/code/webpack-demo/package.json (relative path: .)\n    Field 'browser' doesn't contain a valid alias configuration\n  after using description file: /Users/carlos/code/webpack-demo/package.json (relative path: .)\n    resolve as module\n      /Users/carlos/code/node_modules doesn't exist or is not a directory\n      /Users/carlos/node_modules doesn't exist or is not a directory\n      /Users/node_modules doesn't exist or is not a directory\n      /node_modules doesn't exist or is not a directory\n      looking for modules in /Users/carlos/code/webpack-demo/node_modules\n        using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./node_modules)\n          Field 'browser' doesn't contain a valid alias configuration\n        after using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./node_modules)\n          using description file: /Users/carlos/code/webpack-demo/node_modules/globalize/package.json (relative path: ./dist/globalize-runtime/message)\n            no extension\n              Field 'browser' doesn't contain a valid alias configuration\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/message doesn't exist\n            .es6 .js .ts\n              Field 'browser' doesn't contain a valid alias configuration\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/message.es6 .js .ts doesn't exist\n            as directory\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/message doesn't exist\n[/Users/carlos/code/node_modules]\n[/Users/carlos/node_modules]\n[/Users/node_modules]\n[/node_modules]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/message]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/message.es6 .js .ts]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/message]\n @ multi globalize globalize/dist/globalize-runtime/number globalize/dist/globalize-runtime/currency globalize/dist/globalize-runtime/date globalize/dist/globalize-runtime/message globalize/dist/globalize-runtime/plural globalize/dist/globalize-runtime/relative-time globalize/dist/globalize-runtime/unit",
+      "./.tmp-globalize-webpack/-Users-carlos-code-webpack-demo-app-index-js.js\nModule not found: Error: Can't resolve 'globalize/dist/globalize-runtime/message' in '/Users/carlos/code/webpack-demo/.tmp-globalize-webpack'\nresolve 'globalize/dist/globalize-runtime/message' in '/Users/carlos/code/webpack-demo/.tmp-globalize-webpack'\n  Parsed request is a module\n  using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./.tmp-globalize-webpack)\n    Field 'browser' doesn't contain a valid alias configuration\n  after using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./.tmp-globalize-webpack)\n    resolve as module\n      /Users/carlos/code/webpack-demo/.tmp-globalize-webpack/node_modules doesn't exist or is not a directory\n      /Users/carlos/code/node_modules doesn't exist or is not a directory\n      /Users/carlos/node_modules doesn't exist or is not a directory\n      /Users/node_modules doesn't exist or is not a directory\n      /node_modules doesn't exist or is not a directory\n      looking for modules in /Users/carlos/code/webpack-demo/node_modules\n        using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./node_modules)\n          Field 'browser' doesn't contain a valid alias configuration\n        after using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./node_modules)\n          using description file: /Users/carlos/code/webpack-demo/node_modules/globalize/package.json (relative path: ./dist/globalize-runtime/message)\n            no extension\n              Field 'browser' doesn't contain a valid alias configuration\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/message doesn't exist\n            .es6 .js .ts\n              Field 'browser' doesn't contain a valid alias configuration\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/message.es6 .js .ts doesn't exist\n            as directory\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/message doesn't exist\n[/Users/carlos/code/webpack-demo/.tmp-globalize-webpack/node_modules]\n[/Users/carlos/code/node_modules]\n[/Users/carlos/node_modules]\n[/Users/node_modules]\n[/node_modules]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/message]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/message.es6 .js .ts]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/message]\n @ ./.tmp-globalize-webpack/-Users-carlos-code-webpack-demo-app-index-js.js 11:132-183\n @ ./app/index.js",
+      "multi globalize globalize/dist/globalize-runtime/number globalize/dist/globalize-runtime/currency globalize/dist/globalize-runtime/date globalize/dist/globalize-runtime/message globalize/dist/globalize-runtime/plural globalize/dist/globalize-runtime/relative-time globalize/dist/globalize-runtime/unit\nModule not found: Error: Can't resolve 'globalize/dist/globalize-runtime/number' in '/Users/carlos/code/webpack-demo'\nresolve 'globalize/dist/globalize-runtime/number' in '/Users/carlos/code/webpack-demo'\n  Parsed request is a module\n  using description file: /Users/carlos/code/webpack-demo/package.json (relative path: .)\n    Field 'browser' doesn't contain a valid alias configuration\n  after using description file: /Users/carlos/code/webpack-demo/package.json (relative path: .)\n    resolve as module\n      /Users/carlos/code/node_modules doesn't exist or is not a directory\n      /Users/carlos/node_modules doesn't exist or is not a directory\n      /Users/node_modules doesn't exist or is not a directory\n      /node_modules doesn't exist or is not a directory\n      looking for modules in /Users/carlos/code/webpack-demo/node_modules\n        using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./node_modules)\n          Field 'browser' doesn't contain a valid alias configuration\n        after using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./node_modules)\n          using description file: /Users/carlos/code/webpack-demo/node_modules/globalize/package.json (relative path: ./dist/globalize-runtime/number)\n            no extension\n              Field 'browser' doesn't contain a valid alias configuration\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/number doesn't exist\n            .es6 .js .ts\n              Field 'browser' doesn't contain a valid alias configuration\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/number.es6 .js .ts doesn't exist\n            as directory\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/number doesn't exist\n[/Users/carlos/code/node_modules]\n[/Users/carlos/node_modules]\n[/Users/node_modules]\n[/node_modules]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/number]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/number.es6 .js .ts]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/number]\n @ multi globalize globalize/dist/globalize-runtime/number globalize/dist/globalize-runtime/currency globalize/dist/globalize-runtime/date globalize/dist/globalize-runtime/message globalize/dist/globalize-runtime/plural globalize/dist/globalize-runtime/relative-time globalize/dist/globalize-runtime/unit",
+      "./.tmp-globalize-webpack/-Users-carlos-code-webpack-demo-app-index-js.js\nModule not found: Error: Can't resolve 'globalize/dist/globalize-runtime/number' in '/Users/carlos/code/webpack-demo/.tmp-globalize-webpack'\nresolve 'globalize/dist/globalize-runtime/number' in '/Users/carlos/code/webpack-demo/.tmp-globalize-webpack'\n  Parsed request is a module\n  using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./.tmp-globalize-webpack)\n    Field 'browser' doesn't contain a valid alias configuration\n  after using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./.tmp-globalize-webpack)\n    resolve as module\n      /Users/carlos/code/webpack-demo/.tmp-globalize-webpack/node_modules doesn't exist or is not a directory\n      /Users/carlos/code/node_modules doesn't exist or is not a directory\n      /Users/carlos/node_modules doesn't exist or is not a directory\n      /Users/node_modules doesn't exist or is not a directory\n      /node_modules doesn't exist or is not a directory\n      looking for modules in /Users/carlos/code/webpack-demo/node_modules\n        using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./node_modules)\n          Field 'browser' doesn't contain a valid alias configuration\n        after using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./node_modules)\n          using description file: /Users/carlos/code/webpack-demo/node_modules/globalize/package.json (relative path: ./dist/globalize-runtime/number)\n            no extension\n              Field 'browser' doesn't contain a valid alias configuration\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/number doesn't exist\n            .es6 .js .ts\n              Field 'browser' doesn't contain a valid alias configuration\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/number.es6 .js .ts doesn't exist\n            as directory\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/number doesn't exist\n[/Users/carlos/code/webpack-demo/.tmp-globalize-webpack/node_modules]\n[/Users/carlos/code/node_modules]\n[/Users/carlos/node_modules]\n[/Users/node_modules]\n[/node_modules]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/number]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/number.es6 .js .ts]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/number]\n @ ./.tmp-globalize-webpack/-Users-carlos-code-webpack-demo-app-index-js.js 11:28-78\n @ ./app/index.js",
+      "multi globalize globalize/dist/globalize-runtime/number globalize/dist/globalize-runtime/currency globalize/dist/globalize-runtime/date globalize/dist/globalize-runtime/message globalize/dist/globalize-runtime/plural globalize/dist/globalize-runtime/relative-time globalize/dist/globalize-runtime/unit\nModule not found: Error: Can't resolve 'globalize/dist/globalize-runtime/plural' in '/Users/carlos/code/webpack-demo'\nresolve 'globalize/dist/globalize-runtime/plural' in '/Users/carlos/code/webpack-demo'\n  Parsed request is a module\n  using description file: /Users/carlos/code/webpack-demo/package.json (relative path: .)\n    Field 'browser' doesn't contain a valid alias configuration\n  after using description file: /Users/carlos/code/webpack-demo/package.json (relative path: .)\n    resolve as module\n      /Users/carlos/code/node_modules doesn't exist or is not a directory\n      /Users/carlos/node_modules doesn't exist or is not a directory\n      /Users/node_modules doesn't exist or is not a directory\n      /node_modules doesn't exist or is not a directory\n      looking for modules in /Users/carlos/code/webpack-demo/node_modules\n        using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./node_modules)\n          Field 'browser' doesn't contain a valid alias configuration\n        after using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./node_modules)\n          using description file: /Users/carlos/code/webpack-demo/node_modules/globalize/package.json (relative path: ./dist/globalize-runtime/plural)\n            no extension\n              Field 'browser' doesn't contain a valid alias configuration\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/plural doesn't exist\n            .es6 .js .ts\n              Field 'browser' doesn't contain a valid alias configuration\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/plural.es6 .js .ts doesn't exist\n            as directory\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/plural doesn't exist\n[/Users/carlos/code/node_modules]\n[/Users/carlos/node_modules]\n[/Users/node_modules]\n[/node_modules]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/plural]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/plural.es6 .js .ts]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/plural]\n @ multi globalize globalize/dist/globalize-runtime/number globalize/dist/globalize-runtime/currency globalize/dist/globalize-runtime/date globalize/dist/globalize-runtime/message globalize/dist/globalize-runtime/plural globalize/dist/globalize-runtime/relative-time globalize/dist/globalize-runtime/unit",
+      "./.tmp-globalize-webpack/-Users-carlos-code-webpack-demo-app-index-js.js\nModule not found: Error: Can't resolve 'globalize/dist/globalize-runtime/plural' in '/Users/carlos/code/webpack-demo/.tmp-globalize-webpack'\nresolve 'globalize/dist/globalize-runtime/plural' in '/Users/carlos/code/webpack-demo/.tmp-globalize-webpack'\n  Parsed request is a module\n  using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./.tmp-globalize-webpack)\n    Field 'browser' doesn't contain a valid alias configuration\n  after using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./.tmp-globalize-webpack)\n    resolve as module\n      /Users/carlos/code/webpack-demo/.tmp-globalize-webpack/node_modules doesn't exist or is not a directory\n      /Users/carlos/code/node_modules doesn't exist or is not a directory\n      /Users/carlos/node_modules doesn't exist or is not a directory\n      /Users/node_modules doesn't exist or is not a directory\n      /node_modules doesn't exist or is not a directory\n      looking for modules in /Users/carlos/code/webpack-demo/node_modules\n        using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./node_modules)\n          Field 'browser' doesn't contain a valid alias configuration\n        after using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./node_modules)\n          using description file: /Users/carlos/code/webpack-demo/node_modules/globalize/package.json (relative path: ./dist/globalize-runtime/plural)\n            no extension\n              Field 'browser' doesn't contain a valid alias configuration\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/plural doesn't exist\n            .es6 .js .ts\n              Field 'browser' doesn't contain a valid alias configuration\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/plural.es6 .js .ts doesn't exist\n            as directory\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/plural doesn't exist\n[/Users/carlos/code/webpack-demo/.tmp-globalize-webpack/node_modules]\n[/Users/carlos/code/node_modules]\n[/Users/carlos/node_modules]\n[/Users/node_modules]\n[/node_modules]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/plural]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/plural.es6 .js .ts]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/plural]\n @ ./.tmp-globalize-webpack/-Users-carlos-code-webpack-demo-app-index-js.js 11:80-130\n @ ./app/index.js",
+      "multi globalize globalize/dist/globalize-runtime/number globalize/dist/globalize-runtime/currency globalize/dist/globalize-runtime/date globalize/dist/globalize-runtime/message globalize/dist/globalize-runtime/plural globalize/dist/globalize-runtime/relative-time globalize/dist/globalize-runtime/unit\nModule not found: Error: Can't resolve 'globalize/dist/globalize-runtime/relative-time' in '/Users/carlos/code/webpack-demo'\nresolve 'globalize/dist/globalize-runtime/relative-time' in '/Users/carlos/code/webpack-demo'\n  Parsed request is a module\n  using description file: /Users/carlos/code/webpack-demo/package.json (relative path: .)\n    Field 'browser' doesn't contain a valid alias configuration\n  after using description file: /Users/carlos/code/webpack-demo/package.json (relative path: .)\n    resolve as module\n      /Users/carlos/code/node_modules doesn't exist or is not a directory\n      /Users/carlos/node_modules doesn't exist or is not a directory\n      /Users/node_modules doesn't exist or is not a directory\n      /node_modules doesn't exist or is not a directory\n      looking for modules in /Users/carlos/code/webpack-demo/node_modules\n        using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./node_modules)\n          Field 'browser' doesn't contain a valid alias configuration\n        after using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./node_modules)\n          using description file: /Users/carlos/code/webpack-demo/node_modules/globalize/package.json (relative path: ./dist/globalize-runtime/relative-time)\n            no extension\n              Field 'browser' doesn't contain a valid alias configuration\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/relative-time doesn't exist\n            .es6 .js .ts\n              Field 'browser' doesn't contain a valid alias configuration\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/relative-time.es6 .js .ts doesn't exist\n            as directory\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/relative-time doesn't exist\n[/Users/carlos/code/node_modules]\n[/Users/carlos/node_modules]\n[/Users/node_modules]\n[/node_modules]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/relative-time]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/relative-time.es6 .js .ts]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/relative-time]\n @ multi globalize globalize/dist/globalize-runtime/number globalize/dist/globalize-runtime/currency globalize/dist/globalize-runtime/date globalize/dist/globalize-runtime/message globalize/dist/globalize-runtime/plural globalize/dist/globalize-runtime/relative-time globalize/dist/globalize-runtime/unit",
+      "./.tmp-globalize-webpack/-Users-carlos-code-webpack-demo-app-index-js.js\nModule not found: Error: Can't resolve 'globalize/dist/globalize-runtime/relative-time' in '/Users/carlos/code/webpack-demo/.tmp-globalize-webpack'\nresolve 'globalize/dist/globalize-runtime/relative-time' in '/Users/carlos/code/webpack-demo/.tmp-globalize-webpack'\n  Parsed request is a module\n  using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./.tmp-globalize-webpack)\n    Field 'browser' doesn't contain a valid alias configuration\n  after using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./.tmp-globalize-webpack)\n    resolve as module\n      /Users/carlos/code/webpack-demo/.tmp-globalize-webpack/node_modules doesn't exist or is not a directory\n      /Users/carlos/code/node_modules doesn't exist or is not a directory\n      /Users/carlos/node_modules doesn't exist or is not a directory\n      /Users/node_modules doesn't exist or is not a directory\n      /node_modules doesn't exist or is not a directory\n      looking for modules in /Users/carlos/code/webpack-demo/node_modules\n        using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./node_modules)\n          Field 'browser' doesn't contain a valid alias configuration\n        after using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./node_modules)\n          using description file: /Users/carlos/code/webpack-demo/node_modules/globalize/package.json (relative path: ./dist/globalize-runtime/relative-time)\n            no extension\n              Field 'browser' doesn't contain a valid alias configuration\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/relative-time doesn't exist\n            .es6 .js .ts\n              Field 'browser' doesn't contain a valid alias configuration\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/relative-time.es6 .js .ts doesn't exist\n            as directory\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/relative-time doesn't exist\n[/Users/carlos/code/webpack-demo/.tmp-globalize-webpack/node_modules]\n[/Users/carlos/code/node_modules]\n[/Users/carlos/node_modules]\n[/Users/node_modules]\n[/node_modules]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/relative-time]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/relative-time.es6 .js .ts]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/relative-time]\n @ ./.tmp-globalize-webpack/-Users-carlos-code-webpack-demo-app-index-js.js 11:289-346\n @ ./app/index.js",
+      "multi globalize globalize/dist/globalize-runtime/number globalize/dist/globalize-runtime/currency globalize/dist/globalize-runtime/date globalize/dist/globalize-runtime/message globalize/dist/globalize-runtime/plural globalize/dist/globalize-runtime/relative-time globalize/dist/globalize-runtime/unit\nModule not found: Error: Can't resolve 'globalize/dist/globalize-runtime/unit' in '/Users/carlos/code/webpack-demo'\nresolve 'globalize/dist/globalize-runtime/unit' in '/Users/carlos/code/webpack-demo'\n  Parsed request is a module\n  using description file: /Users/carlos/code/webpack-demo/package.json (relative path: .)\n    Field 'browser' doesn't contain a valid alias configuration\n  after using description file: /Users/carlos/code/webpack-demo/package.json (relative path: .)\n    resolve as module\n      /Users/carlos/code/node_modules doesn't exist or is not a directory\n      /Users/carlos/node_modules doesn't exist or is not a directory\n      /Users/node_modules doesn't exist or is not a directory\n      /node_modules doesn't exist or is not a directory\n      looking for modules in /Users/carlos/code/webpack-demo/node_modules\n        using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./node_modules)\n          Field 'browser' doesn't contain a valid alias configuration\n        after using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./node_modules)\n          using description file: /Users/carlos/code/webpack-demo/node_modules/globalize/package.json (relative path: ./dist/globalize-runtime/unit)\n            no extension\n              Field 'browser' doesn't contain a valid alias configuration\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/unit doesn't exist\n            .es6 .js .ts\n              Field 'browser' doesn't contain a valid alias configuration\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/unit.es6 .js .ts doesn't exist\n            as directory\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/unit doesn't exist\n[/Users/carlos/code/node_modules]\n[/Users/carlos/node_modules]\n[/Users/node_modules]\n[/node_modules]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/unit]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/unit.es6 .js .ts]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/unit]\n @ multi globalize globalize/dist/globalize-runtime/number globalize/dist/globalize-runtime/currency globalize/dist/globalize-runtime/date globalize/dist/globalize-runtime/message globalize/dist/globalize-runtime/plural globalize/dist/globalize-runtime/relative-time globalize/dist/globalize-runtime/unit",
+      "./.tmp-globalize-webpack/-Users-carlos-code-webpack-demo-app-index-js.js\nModule not found: Error: Can't resolve 'globalize/dist/globalize-runtime/unit' in '/Users/carlos/code/webpack-demo/.tmp-globalize-webpack'\nresolve 'globalize/dist/globalize-runtime/unit' in '/Users/carlos/code/webpack-demo/.tmp-globalize-webpack'\n  Parsed request is a module\n  using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./.tmp-globalize-webpack)\n    Field 'browser' doesn't contain a valid alias configuration\n  after using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./.tmp-globalize-webpack)\n    resolve as module\n      /Users/carlos/code/webpack-demo/.tmp-globalize-webpack/node_modules doesn't exist or is not a directory\n      /Users/carlos/code/node_modules doesn't exist or is not a directory\n      /Users/carlos/node_modules doesn't exist or is not a directory\n      /Users/node_modules doesn't exist or is not a directory\n      /node_modules doesn't exist or is not a directory\n      looking for modules in /Users/carlos/code/webpack-demo/node_modules\n        using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./node_modules)\n          Field 'browser' doesn't contain a valid alias configuration\n        after using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./node_modules)\n          using description file: /Users/carlos/code/webpack-demo/node_modules/globalize/package.json (relative path: ./dist/globalize-runtime/unit)\n            no extension\n              Field 'browser' doesn't contain a valid alias configuration\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/unit doesn't exist\n            .es6 .js .ts\n              Field 'browser' doesn't contain a valid alias configuration\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/unit.es6 .js .ts doesn't exist\n            as directory\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/unit doesn't exist\n[/Users/carlos/code/webpack-demo/.tmp-globalize-webpack/node_modules]\n[/Users/carlos/code/node_modules]\n[/Users/carlos/node_modules]\n[/Users/node_modules]\n[/node_modules]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/unit]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/unit.es6 .js .ts]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/unit]\n @ ./.tmp-globalize-webpack/-Users-carlos-code-webpack-demo-app-index-js.js 11:348-396\n @ ./app/index.js"
+    ],
+    "size": 62452,
+    "assets": [
+      {
+        "name": "i18n/ar.9d34e78a0f93efeb736e.js",
+        "chunks": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "size": 8468,
+        "minified": true
+      },
+      {
+        "name": "i18n/de.9d34e78a0f93efeb736e.js",
+        "chunks": [
+          1,
+          0,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "size": 7655,
+        "minified": true
+      },
+      {
+        "name": "i18n/en.9d34e78a0f93efeb736e.js",
+        "chunks": [
+          2,
+          0,
+          1,
+          3,
+          4,
+          5,
+          6
+        ],
+        "size": 7751,
+        "minified": true
+      },
+      {
+        "name": "i18n/es.9d34e78a0f93efeb736e.js",
+        "chunks": [
+          3,
+          0,
+          1,
+          2,
+          4,
+          5,
+          6
+        ],
+        "size": 7763,
+        "minified": true
+      },
+      {
+        "name": "i18n/pt.9d34e78a0f93efeb736e.js",
+        "chunks": [
+          4,
+          0,
+          1,
+          2,
+          3,
+          5,
+          6
+        ],
+        "size": 7799,
+        "minified": true
+      },
+      {
+        "name": "i18n/ru.9d34e78a0f93efeb736e.js",
+        "chunks": [
+          5,
+          0,
+          1,
+          2,
+          3,
+          4,
+          6
+        ],
+        "size": 8315,
+        "minified": true
+      },
+      {
+        "name": "i18n/zh.9d34e78a0f93efeb736e.js",
+        "chunks": [
+          6,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "size": 6950,
+        "minified": true
+      },
+      {
+        "name": "app.9d34e78a0f93efeb736e.js",
+        "chunks": [
+          7
+        ],
+        "size": 2541,
+        "minified": true
+      },
+      {
+        "name": "vendor.bundle.js",
+        "chunks": [
+          8
+        ],
+        "size": 2138,
+        "minified": true
+      },
+      {
+        "name": "index.html",
+        "chunks": [],
+        "size": 3072
+      }
+    ],
+    "chunks": [
+      {
+        "size": 11047,
+        "files": [
+          "i18n/ar.9d34e78a0f93efeb736e.js"
+        ],
+        "modules": [
+          {
+            "name": "multi ",
+            "size": 16,
+            "id": 0
+          },
+          {
+            "name": "./.tmp-globalize-webpack/-Users-carlos-code-webpack-demo-app-index-js.js",
+            "size": 11031,
+            "id": 1
+          }
+        ]
+      },
+      {
+        "size": 11047,
+        "files": [
+          "i18n/de.9d34e78a0f93efeb736e.js"
+        ],
+        "modules": [
+          {
+            "name": "multi ",
+            "size": 16,
+            "id": 0
+          },
+          {
+            "name": "./.tmp-globalize-webpack/-Users-carlos-code-webpack-demo-app-index-js.js",
+            "size": 11031,
+            "id": 1
+          }
+        ]
+      },
+      {
+        "size": 11047,
+        "files": [
+          "i18n/en.9d34e78a0f93efeb736e.js"
+        ],
+        "modules": [
+          {
+            "name": "multi ",
+            "size": 16,
+            "id": 0
+          },
+          {
+            "name": "./.tmp-globalize-webpack/-Users-carlos-code-webpack-demo-app-index-js.js",
+            "size": 11031,
+            "id": 1
+          }
+        ]
+      },
+      {
+        "size": 11047,
+        "files": [
+          "i18n/es.9d34e78a0f93efeb736e.js"
+        ],
+        "modules": [
+          {
+            "name": "multi ",
+            "size": 16,
+            "id": 0
+          },
+          {
+            "name": "./.tmp-globalize-webpack/-Users-carlos-code-webpack-demo-app-index-js.js",
+            "size": 11031,
+            "id": 1
+          }
+        ]
+      },
+      {
+        "size": 11047,
+        "files": [
+          "i18n/pt.9d34e78a0f93efeb736e.js"
+        ],
+        "modules": [
+          {
+            "name": "multi ",
+            "size": 16,
+            "id": 0
+          },
+          {
+            "name": "./.tmp-globalize-webpack/-Users-carlos-code-webpack-demo-app-index-js.js",
+            "size": 11031,
+            "id": 1
+          }
+        ]
+      },
+      {
+        "size": 11047,
+        "files": [
+          "i18n/ru.9d34e78a0f93efeb736e.js"
+        ],
+        "modules": [
+          {
+            "name": "multi ",
+            "size": 16,
+            "id": 0
+          },
+          {
+            "name": "./.tmp-globalize-webpack/-Users-carlos-code-webpack-demo-app-index-js.js",
+            "size": 11031,
+            "id": 1
+          }
+        ]
+      },
+      {
+        "size": 11047,
+        "files": [
+          "i18n/zh.9d34e78a0f93efeb736e.js"
+        ],
+        "modules": [
+          {
+            "name": "multi ",
+            "size": 16,
+            "id": 0
+          },
+          {
+            "name": "./.tmp-globalize-webpack/-Users-carlos-code-webpack-demo-app-index-js.js",
+            "size": 11031,
+            "id": 1
+          }
+        ]
+      },
+      {
+        "size": 3729,
+        "files": [
+          "app.9d34e78a0f93efeb736e.js"
+        ],
+        "modules": [
+          {
+            "name": "./app/index.js",
+            "size": 3729,
+            "id": 2
+          }
+        ]
+      },
+      {
+        "size": 112,
+        "files": [
+          "vendor.bundle.js"
+        ],
+        "modules": [
+          {
+            "name": "multi globalize globalize/dist/globalize-runtime/number globalize/dist/globalize-runtime/currency globalize/dist/globalize-runtime/date globalize/dist/globalize-runtime/message globalize/dist/globalize-runtime/plural globalize/dist/globalize-runtime/relative-time globalize/dist/globalize-runtime/unit",
+            "size": 112,
+            "id": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "timeStamp": 1510557102852,
+    "time": 1019,
+    "hash": "96ea688a37954e3279f4",
+    "errors": [
+      "multi ./node_modules/globalize ./node_modules/globalize/dist/globalize-runtime/number ./node_modules/globalize/dist/globalize-runtime/currency ./node_modules/globalize/dist/globalize-runtime/date ./node_modules/globalize/dist/globalize-runtime/message ./node_modules/globalize/dist/globalize-runtime/plural ./node_modules/globalize/dist/globalize-runtime/relative-time ./node_modules/globalize/dist/globalize-runtime/unit\nModule not found: Error: Can't resolve './node_modules/globalize/dist/globalize-runtime/currency' in '/Users/carlos/code/webpack-demo'\nresolve './node_modules/globalize/dist/globalize-runtime/currency' in '/Users/carlos/code/webpack-demo'\n  using description file: /Users/carlos/code/webpack-demo/package.json (relative path: .)\n    Field 'browser' doesn't contain a valid alias configuration\n  after using description file: /Users/carlos/code/webpack-demo/package.json (relative path: .)\n    using description file: /Users/carlos/code/webpack-demo/node_modules/globalize/package.json (relative path: ./dist/globalize-runtime/currency)\n      no extension\n        Field 'browser' doesn't contain a valid alias configuration\n        /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/currency doesn't exist\n      .es6 .js .ts\n        Field 'browser' doesn't contain a valid alias configuration\n        /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/currency.es6 .js .ts doesn't exist\n      as directory\n        /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/currency doesn't exist\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/currency]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/currency.es6 .js .ts]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/currency]\n @ multi ./node_modules/globalize ./node_modules/globalize/dist/globalize-runtime/number ./node_modules/globalize/dist/globalize-runtime/currency ./node_modules/globalize/dist/globalize-runtime/date ./node_modules/globalize/dist/globalize-runtime/message ./node_modules/globalize/dist/globalize-runtime/plural ./node_modules/globalize/dist/globalize-runtime/relative-time ./node_modules/globalize/dist/globalize-runtime/unit",
+      "multi ./node_modules/globalize ./node_modules/globalize/dist/globalize-runtime/number ./node_modules/globalize/dist/globalize-runtime/currency ./node_modules/globalize/dist/globalize-runtime/date ./node_modules/globalize/dist/globalize-runtime/message ./node_modules/globalize/dist/globalize-runtime/plural ./node_modules/globalize/dist/globalize-runtime/relative-time ./node_modules/globalize/dist/globalize-runtime/unit\nModule not found: Error: Can't resolve './node_modules/globalize/dist/globalize-runtime/date' in '/Users/carlos/code/webpack-demo'\nresolve './node_modules/globalize/dist/globalize-runtime/date' in '/Users/carlos/code/webpack-demo'\n  using description file: /Users/carlos/code/webpack-demo/package.json (relative path: .)\n    Field 'browser' doesn't contain a valid alias configuration\n  after using description file: /Users/carlos/code/webpack-demo/package.json (relative path: .)\n    using description file: /Users/carlos/code/webpack-demo/node_modules/globalize/package.json (relative path: ./dist/globalize-runtime/date)\n      no extension\n        Field 'browser' doesn't contain a valid alias configuration\n        /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/date doesn't exist\n      .es6 .js .ts\n        Field 'browser' doesn't contain a valid alias configuration\n        /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/date.es6 .js .ts doesn't exist\n      as directory\n        /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/date doesn't exist\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/date]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/date.es6 .js .ts]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/date]\n @ multi ./node_modules/globalize ./node_modules/globalize/dist/globalize-runtime/number ./node_modules/globalize/dist/globalize-runtime/currency ./node_modules/globalize/dist/globalize-runtime/date ./node_modules/globalize/dist/globalize-runtime/message ./node_modules/globalize/dist/globalize-runtime/plural ./node_modules/globalize/dist/globalize-runtime/relative-time ./node_modules/globalize/dist/globalize-runtime/unit",
+      "multi ./node_modules/globalize ./node_modules/globalize/dist/globalize-runtime/number ./node_modules/globalize/dist/globalize-runtime/currency ./node_modules/globalize/dist/globalize-runtime/date ./node_modules/globalize/dist/globalize-runtime/message ./node_modules/globalize/dist/globalize-runtime/plural ./node_modules/globalize/dist/globalize-runtime/relative-time ./node_modules/globalize/dist/globalize-runtime/unit\nModule not found: Error: Can't resolve './node_modules/globalize/dist/globalize-runtime/message' in '/Users/carlos/code/webpack-demo'\nresolve './node_modules/globalize/dist/globalize-runtime/message' in '/Users/carlos/code/webpack-demo'\n  using description file: /Users/carlos/code/webpack-demo/package.json (relative path: .)\n    Field 'browser' doesn't contain a valid alias configuration\n  after using description file: /Users/carlos/code/webpack-demo/package.json (relative path: .)\n    using description file: /Users/carlos/code/webpack-demo/node_modules/globalize/package.json (relative path: ./dist/globalize-runtime/message)\n      no extension\n        Field 'browser' doesn't contain a valid alias configuration\n        /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/message doesn't exist\n      .es6 .js .ts\n        Field 'browser' doesn't contain a valid alias configuration\n        /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/message.es6 .js .ts doesn't exist\n      as directory\n        /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/message doesn't exist\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/message]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/message.es6 .js .ts]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/message]\n @ multi ./node_modules/globalize ./node_modules/globalize/dist/globalize-runtime/number ./node_modules/globalize/dist/globalize-runtime/currency ./node_modules/globalize/dist/globalize-runtime/date ./node_modules/globalize/dist/globalize-runtime/message ./node_modules/globalize/dist/globalize-runtime/plural ./node_modules/globalize/dist/globalize-runtime/relative-time ./node_modules/globalize/dist/globalize-runtime/unit",
+      "multi ./node_modules/globalize ./node_modules/globalize/dist/globalize-runtime/number ./node_modules/globalize/dist/globalize-runtime/currency ./node_modules/globalize/dist/globalize-runtime/date ./node_modules/globalize/dist/globalize-runtime/message ./node_modules/globalize/dist/globalize-runtime/plural ./node_modules/globalize/dist/globalize-runtime/relative-time ./node_modules/globalize/dist/globalize-runtime/unit\nModule not found: Error: Can't resolve './node_modules/globalize/dist/globalize-runtime/number' in '/Users/carlos/code/webpack-demo'\nresolve './node_modules/globalize/dist/globalize-runtime/number' in '/Users/carlos/code/webpack-demo'\n  using description file: /Users/carlos/code/webpack-demo/package.json (relative path: .)\n    Field 'browser' doesn't contain a valid alias configuration\n  after using description file: /Users/carlos/code/webpack-demo/package.json (relative path: .)\n    using description file: /Users/carlos/code/webpack-demo/node_modules/globalize/package.json (relative path: ./dist/globalize-runtime/number)\n      no extension\n        Field 'browser' doesn't contain a valid alias configuration\n        /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/number doesn't exist\n      .es6 .js .ts\n        Field 'browser' doesn't contain a valid alias configuration\n        /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/number.es6 .js .ts doesn't exist\n      as directory\n        /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/number doesn't exist\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/number]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/number.es6 .js .ts]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/number]\n @ multi ./node_modules/globalize ./node_modules/globalize/dist/globalize-runtime/number ./node_modules/globalize/dist/globalize-runtime/currency ./node_modules/globalize/dist/globalize-runtime/date ./node_modules/globalize/dist/globalize-runtime/message ./node_modules/globalize/dist/globalize-runtime/plural ./node_modules/globalize/dist/globalize-runtime/relative-time ./node_modules/globalize/dist/globalize-runtime/unit",
+      "multi ./node_modules/globalize ./node_modules/globalize/dist/globalize-runtime/number ./node_modules/globalize/dist/globalize-runtime/currency ./node_modules/globalize/dist/globalize-runtime/date ./node_modules/globalize/dist/globalize-runtime/message ./node_modules/globalize/dist/globalize-runtime/plural ./node_modules/globalize/dist/globalize-runtime/relative-time ./node_modules/globalize/dist/globalize-runtime/unit\nModule not found: Error: Can't resolve './node_modules/globalize/dist/globalize-runtime/plural' in '/Users/carlos/code/webpack-demo'\nresolve './node_modules/globalize/dist/globalize-runtime/plural' in '/Users/carlos/code/webpack-demo'\n  using description file: /Users/carlos/code/webpack-demo/package.json (relative path: .)\n    Field 'browser' doesn't contain a valid alias configuration\n  after using description file: /Users/carlos/code/webpack-demo/package.json (relative path: .)\n    using description file: /Users/carlos/code/webpack-demo/node_modules/globalize/package.json (relative path: ./dist/globalize-runtime/plural)\n      no extension\n        Field 'browser' doesn't contain a valid alias configuration\n        /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/plural doesn't exist\n      .es6 .js .ts\n        Field 'browser' doesn't contain a valid alias configuration\n        /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/plural.es6 .js .ts doesn't exist\n      as directory\n        /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/plural doesn't exist\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/plural]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/plural.es6 .js .ts]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/plural]\n @ multi ./node_modules/globalize ./node_modules/globalize/dist/globalize-runtime/number ./node_modules/globalize/dist/globalize-runtime/currency ./node_modules/globalize/dist/globalize-runtime/date ./node_modules/globalize/dist/globalize-runtime/message ./node_modules/globalize/dist/globalize-runtime/plural ./node_modules/globalize/dist/globalize-runtime/relative-time ./node_modules/globalize/dist/globalize-runtime/unit",
+      "multi ./node_modules/globalize ./node_modules/globalize/dist/globalize-runtime/number ./node_modules/globalize/dist/globalize-runtime/currency ./node_modules/globalize/dist/globalize-runtime/date ./node_modules/globalize/dist/globalize-runtime/message ./node_modules/globalize/dist/globalize-runtime/plural ./node_modules/globalize/dist/globalize-runtime/relative-time ./node_modules/globalize/dist/globalize-runtime/unit\nModule not found: Error: Can't resolve './node_modules/globalize/dist/globalize-runtime/relative-time' in '/Users/carlos/code/webpack-demo'\nresolve './node_modules/globalize/dist/globalize-runtime/relative-time' in '/Users/carlos/code/webpack-demo'\n  using description file: /Users/carlos/code/webpack-demo/package.json (relative path: .)\n    Field 'browser' doesn't contain a valid alias configuration\n  after using description file: /Users/carlos/code/webpack-demo/package.json (relative path: .)\n    using description file: /Users/carlos/code/webpack-demo/node_modules/globalize/package.json (relative path: ./dist/globalize-runtime/relative-time)\n      no extension\n        Field 'browser' doesn't contain a valid alias configuration\n        /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/relative-time doesn't exist\n      .es6 .js .ts\n        Field 'browser' doesn't contain a valid alias configuration\n        /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/relative-time.es6 .js .ts doesn't exist\n      as directory\n        /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/relative-time doesn't exist\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/relative-time]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/relative-time.es6 .js .ts]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/relative-time]\n @ multi ./node_modules/globalize ./node_modules/globalize/dist/globalize-runtime/number ./node_modules/globalize/dist/globalize-runtime/currency ./node_modules/globalize/dist/globalize-runtime/date ./node_modules/globalize/dist/globalize-runtime/message ./node_modules/globalize/dist/globalize-runtime/plural ./node_modules/globalize/dist/globalize-runtime/relative-time ./node_modules/globalize/dist/globalize-runtime/unit",
+      "multi ./node_modules/globalize ./node_modules/globalize/dist/globalize-runtime/number ./node_modules/globalize/dist/globalize-runtime/currency ./node_modules/globalize/dist/globalize-runtime/date ./node_modules/globalize/dist/globalize-runtime/message ./node_modules/globalize/dist/globalize-runtime/plural ./node_modules/globalize/dist/globalize-runtime/relative-time ./node_modules/globalize/dist/globalize-runtime/unit\nModule not found: Error: Can't resolve './node_modules/globalize/dist/globalize-runtime/unit' in '/Users/carlos/code/webpack-demo'\nresolve './node_modules/globalize/dist/globalize-runtime/unit' in '/Users/carlos/code/webpack-demo'\n  using description file: /Users/carlos/code/webpack-demo/package.json (relative path: .)\n    Field 'browser' doesn't contain a valid alias configuration\n  after using description file: /Users/carlos/code/webpack-demo/package.json (relative path: .)\n    using description file: /Users/carlos/code/webpack-demo/node_modules/globalize/package.json (relative path: ./dist/globalize-runtime/unit)\n      no extension\n        Field 'browser' doesn't contain a valid alias configuration\n        /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/unit doesn't exist\n      .es6 .js .ts\n        Field 'browser' doesn't contain a valid alias configuration\n        /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/unit.es6 .js .ts doesn't exist\n      as directory\n        /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/unit doesn't exist\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/unit]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/unit.es6 .js .ts]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/unit]\n @ multi ./node_modules/globalize ./node_modules/globalize/dist/globalize-runtime/number ./node_modules/globalize/dist/globalize-runtime/currency ./node_modules/globalize/dist/globalize-runtime/date ./node_modules/globalize/dist/globalize-runtime/message ./node_modules/globalize/dist/globalize-runtime/plural ./node_modules/globalize/dist/globalize-runtime/relative-time ./node_modules/globalize/dist/globalize-runtime/unit",
+      "multi ./node_modules/globalize ./node_modules/globalize/dist/globalize-runtime/number ./node_modules/globalize/dist/globalize-runtime/currency ./node_modules/globalize/dist/globalize-runtime/date ./node_modules/globalize/dist/globalize-runtime/message ./node_modules/globalize/dist/globalize-runtime/plural ./node_modules/globalize/dist/globalize-runtime/relative-time ./node_modules/globalize/dist/globalize-runtime/unit\nModule not found: Error: Can't resolve 'globalize/dist/globalize-runtime' in '/Users/carlos/code/webpack-demo'\nresolve 'globalize/dist/globalize-runtime' in '/Users/carlos/code/webpack-demo'\n  Parsed request is a module\n  using description file: /Users/carlos/code/webpack-demo/package.json (relative path: .)\n    Field 'browser' doesn't contain a valid alias configuration\n  after using description file: /Users/carlos/code/webpack-demo/package.json (relative path: .)\n    resolve as module\n      /Users/carlos/code/node_modules doesn't exist or is not a directory\n      /Users/carlos/node_modules doesn't exist or is not a directory\n      /Users/node_modules doesn't exist or is not a directory\n      /node_modules doesn't exist or is not a directory\n      looking for modules in /Users/carlos/code/webpack-demo/node_modules\n        using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./node_modules)\n          Field 'browser' doesn't contain a valid alias configuration\n        after using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./node_modules)\n          using description file: /Users/carlos/code/webpack-demo/node_modules/globalize/package.json (relative path: ./dist/globalize-runtime)\n            no extension\n              Field 'browser' doesn't contain a valid alias configuration\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime is not a file\n            .es6 .js .ts\n              Field 'browser' doesn't contain a valid alias configuration\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime.es6 .js .ts doesn't exist\n            as directory\n              existing directory\n                using path: /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/index\n                  using description file: /Users/carlos/code/webpack-demo/node_modules/globalize/package.json (relative path: ./dist/globalize-runtime/index)\n                    no extension\n                      Field 'browser' doesn't contain a valid alias configuration\n                      /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/index doesn't exist\n                    .es6 .js .ts\n                      Field 'browser' doesn't contain a valid alias configuration\n                      /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/index.es6 .js .ts doesn't exist\n[/Users/carlos/code/node_modules]\n[/Users/carlos/node_modules]\n[/Users/node_modules]\n[/node_modules]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime.es6 .js .ts]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/index]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/index.es6 .js .ts]\n @ multi ./node_modules/globalize ./node_modules/globalize/dist/globalize-runtime/number ./node_modules/globalize/dist/globalize-runtime/currency ./node_modules/globalize/dist/globalize-runtime/date ./node_modules/globalize/dist/globalize-runtime/message ./node_modules/globalize/dist/globalize-runtime/plural ./node_modules/globalize/dist/globalize-runtime/relative-time ./node_modules/globalize/dist/globalize-runtime/unit",
+      "./.tmp-globalize-webpack/-Users-carlos-code-webpack-demo-app-index-js.js\nModule not found: Error: Can't resolve 'globalize/dist/globalize-runtime/currency' in '/Users/carlos/code/webpack-demo/.tmp-globalize-webpack'\nresolve 'globalize/dist/globalize-runtime/currency' in '/Users/carlos/code/webpack-demo/.tmp-globalize-webpack'\n  Parsed request is a module\n  using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./.tmp-globalize-webpack)\n    Field 'browser' doesn't contain a valid alias configuration\n  after using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./.tmp-globalize-webpack)\n    resolve as module\n      /Users/carlos/code/webpack-demo/.tmp-globalize-webpack/node_modules doesn't exist or is not a directory\n      /Users/carlos/code/node_modules doesn't exist or is not a directory\n      /Users/carlos/node_modules doesn't exist or is not a directory\n      /Users/node_modules doesn't exist or is not a directory\n      /node_modules doesn't exist or is not a directory\n      looking for modules in /Users/carlos/code/webpack-demo/node_modules\n        using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./node_modules)\n          Field 'browser' doesn't contain a valid alias configuration\n        after using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./node_modules)\n          using description file: /Users/carlos/code/webpack-demo/node_modules/globalize/package.json (relative path: ./dist/globalize-runtime/currency)\n            no extension\n              Field 'browser' doesn't contain a valid alias configuration\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/currency doesn't exist\n            .es6 .js .ts\n              Field 'browser' doesn't contain a valid alias configuration\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/currency.es6 .js .ts doesn't exist\n            as directory\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/currency doesn't exist\n[/Users/carlos/code/webpack-demo/.tmp-globalize-webpack/node_modules]\n[/Users/carlos/code/node_modules]\n[/Users/carlos/node_modules]\n[/Users/node_modules]\n[/node_modules]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/currency]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/currency.es6 .js .ts]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/currency]\n @ ./.tmp-globalize-webpack/-Users-carlos-code-webpack-demo-app-index-js.js 11:185-237\n @ ./app/index.js",
+      "./.tmp-globalize-webpack/-Users-carlos-code-webpack-demo-app-index-js.js\nModule not found: Error: Can't resolve 'globalize/dist/globalize-runtime/date' in '/Users/carlos/code/webpack-demo/.tmp-globalize-webpack'\nresolve 'globalize/dist/globalize-runtime/date' in '/Users/carlos/code/webpack-demo/.tmp-globalize-webpack'\n  Parsed request is a module\n  using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./.tmp-globalize-webpack)\n    Field 'browser' doesn't contain a valid alias configuration\n  after using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./.tmp-globalize-webpack)\n    resolve as module\n      /Users/carlos/code/webpack-demo/.tmp-globalize-webpack/node_modules doesn't exist or is not a directory\n      /Users/carlos/code/node_modules doesn't exist or is not a directory\n      /Users/carlos/node_modules doesn't exist or is not a directory\n      /Users/node_modules doesn't exist or is not a directory\n      /node_modules doesn't exist or is not a directory\n      looking for modules in /Users/carlos/code/webpack-demo/node_modules\n        using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./node_modules)\n          Field 'browser' doesn't contain a valid alias configuration\n        after using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./node_modules)\n          using description file: /Users/carlos/code/webpack-demo/node_modules/globalize/package.json (relative path: ./dist/globalize-runtime/date)\n            no extension\n              Field 'browser' doesn't contain a valid alias configuration\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/date doesn't exist\n            .es6 .js .ts\n              Field 'browser' doesn't contain a valid alias configuration\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/date.es6 .js .ts doesn't exist\n            as directory\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/date doesn't exist\n[/Users/carlos/code/webpack-demo/.tmp-globalize-webpack/node_modules]\n[/Users/carlos/code/node_modules]\n[/Users/carlos/node_modules]\n[/Users/node_modules]\n[/node_modules]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/date]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/date.es6 .js .ts]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/date]\n @ ./.tmp-globalize-webpack/-Users-carlos-code-webpack-demo-app-index-js.js 11:239-287\n @ ./app/index.js",
+      "./.tmp-globalize-webpack/-Users-carlos-code-webpack-demo-app-index-js.js\nModule not found: Error: Can't resolve 'globalize/dist/globalize-runtime/message' in '/Users/carlos/code/webpack-demo/.tmp-globalize-webpack'\nresolve 'globalize/dist/globalize-runtime/message' in '/Users/carlos/code/webpack-demo/.tmp-globalize-webpack'\n  Parsed request is a module\n  using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./.tmp-globalize-webpack)\n    Field 'browser' doesn't contain a valid alias configuration\n  after using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./.tmp-globalize-webpack)\n    resolve as module\n      /Users/carlos/code/webpack-demo/.tmp-globalize-webpack/node_modules doesn't exist or is not a directory\n      /Users/carlos/code/node_modules doesn't exist or is not a directory\n      /Users/carlos/node_modules doesn't exist or is not a directory\n      /Users/node_modules doesn't exist or is not a directory\n      /node_modules doesn't exist or is not a directory\n      looking for modules in /Users/carlos/code/webpack-demo/node_modules\n        using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./node_modules)\n          Field 'browser' doesn't contain a valid alias configuration\n        after using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./node_modules)\n          using description file: /Users/carlos/code/webpack-demo/node_modules/globalize/package.json (relative path: ./dist/globalize-runtime/message)\n            no extension\n              Field 'browser' doesn't contain a valid alias configuration\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/message doesn't exist\n            .es6 .js .ts\n              Field 'browser' doesn't contain a valid alias configuration\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/message.es6 .js .ts doesn't exist\n            as directory\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/message doesn't exist\n[/Users/carlos/code/webpack-demo/.tmp-globalize-webpack/node_modules]\n[/Users/carlos/code/node_modules]\n[/Users/carlos/node_modules]\n[/Users/node_modules]\n[/node_modules]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/message]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/message.es6 .js .ts]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/message]\n @ ./.tmp-globalize-webpack/-Users-carlos-code-webpack-demo-app-index-js.js 11:132-183\n @ ./app/index.js",
+      "./.tmp-globalize-webpack/-Users-carlos-code-webpack-demo-app-index-js.js\nModule not found: Error: Can't resolve 'globalize/dist/globalize-runtime/number' in '/Users/carlos/code/webpack-demo/.tmp-globalize-webpack'\nresolve 'globalize/dist/globalize-runtime/number' in '/Users/carlos/code/webpack-demo/.tmp-globalize-webpack'\n  Parsed request is a module\n  using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./.tmp-globalize-webpack)\n    Field 'browser' doesn't contain a valid alias configuration\n  after using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./.tmp-globalize-webpack)\n    resolve as module\n      /Users/carlos/code/webpack-demo/.tmp-globalize-webpack/node_modules doesn't exist or is not a directory\n      /Users/carlos/code/node_modules doesn't exist or is not a directory\n      /Users/carlos/node_modules doesn't exist or is not a directory\n      /Users/node_modules doesn't exist or is not a directory\n      /node_modules doesn't exist or is not a directory\n      looking for modules in /Users/carlos/code/webpack-demo/node_modules\n        using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./node_modules)\n          Field 'browser' doesn't contain a valid alias configuration\n        after using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./node_modules)\n          using description file: /Users/carlos/code/webpack-demo/node_modules/globalize/package.json (relative path: ./dist/globalize-runtime/number)\n            no extension\n              Field 'browser' doesn't contain a valid alias configuration\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/number doesn't exist\n            .es6 .js .ts\n              Field 'browser' doesn't contain a valid alias configuration\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/number.es6 .js .ts doesn't exist\n            as directory\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/number doesn't exist\n[/Users/carlos/code/webpack-demo/.tmp-globalize-webpack/node_modules]\n[/Users/carlos/code/node_modules]\n[/Users/carlos/node_modules]\n[/Users/node_modules]\n[/node_modules]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/number]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/number.es6 .js .ts]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/number]\n @ ./.tmp-globalize-webpack/-Users-carlos-code-webpack-demo-app-index-js.js 11:28-78\n @ ./app/index.js",
+      "./.tmp-globalize-webpack/-Users-carlos-code-webpack-demo-app-index-js.js\nModule not found: Error: Can't resolve 'globalize/dist/globalize-runtime/plural' in '/Users/carlos/code/webpack-demo/.tmp-globalize-webpack'\nresolve 'globalize/dist/globalize-runtime/plural' in '/Users/carlos/code/webpack-demo/.tmp-globalize-webpack'\n  Parsed request is a module\n  using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./.tmp-globalize-webpack)\n    Field 'browser' doesn't contain a valid alias configuration\n  after using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./.tmp-globalize-webpack)\n    resolve as module\n      /Users/carlos/code/webpack-demo/.tmp-globalize-webpack/node_modules doesn't exist or is not a directory\n      /Users/carlos/code/node_modules doesn't exist or is not a directory\n      /Users/carlos/node_modules doesn't exist or is not a directory\n      /Users/node_modules doesn't exist or is not a directory\n      /node_modules doesn't exist or is not a directory\n      looking for modules in /Users/carlos/code/webpack-demo/node_modules\n        using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./node_modules)\n          Field 'browser' doesn't contain a valid alias configuration\n        after using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./node_modules)\n          using description file: /Users/carlos/code/webpack-demo/node_modules/globalize/package.json (relative path: ./dist/globalize-runtime/plural)\n            no extension\n              Field 'browser' doesn't contain a valid alias configuration\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/plural doesn't exist\n            .es6 .js .ts\n              Field 'browser' doesn't contain a valid alias configuration\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/plural.es6 .js .ts doesn't exist\n            as directory\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/plural doesn't exist\n[/Users/carlos/code/webpack-demo/.tmp-globalize-webpack/node_modules]\n[/Users/carlos/code/node_modules]\n[/Users/carlos/node_modules]\n[/Users/node_modules]\n[/node_modules]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/plural]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/plural.es6 .js .ts]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/plural]\n @ ./.tmp-globalize-webpack/-Users-carlos-code-webpack-demo-app-index-js.js 11:80-130\n @ ./app/index.js",
+      "./.tmp-globalize-webpack/-Users-carlos-code-webpack-demo-app-index-js.js\nModule not found: Error: Can't resolve 'globalize/dist/globalize-runtime/relative-time' in '/Users/carlos/code/webpack-demo/.tmp-globalize-webpack'\nresolve 'globalize/dist/globalize-runtime/relative-time' in '/Users/carlos/code/webpack-demo/.tmp-globalize-webpack'\n  Parsed request is a module\n  using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./.tmp-globalize-webpack)\n    Field 'browser' doesn't contain a valid alias configuration\n  after using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./.tmp-globalize-webpack)\n    resolve as module\n      /Users/carlos/code/webpack-demo/.tmp-globalize-webpack/node_modules doesn't exist or is not a directory\n      /Users/carlos/code/node_modules doesn't exist or is not a directory\n      /Users/carlos/node_modules doesn't exist or is not a directory\n      /Users/node_modules doesn't exist or is not a directory\n      /node_modules doesn't exist or is not a directory\n      looking for modules in /Users/carlos/code/webpack-demo/node_modules\n        using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./node_modules)\n          Field 'browser' doesn't contain a valid alias configuration\n        after using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./node_modules)\n          using description file: /Users/carlos/code/webpack-demo/node_modules/globalize/package.json (relative path: ./dist/globalize-runtime/relative-time)\n            no extension\n              Field 'browser' doesn't contain a valid alias configuration\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/relative-time doesn't exist\n            .es6 .js .ts\n              Field 'browser' doesn't contain a valid alias configuration\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/relative-time.es6 .js .ts doesn't exist\n            as directory\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/relative-time doesn't exist\n[/Users/carlos/code/webpack-demo/.tmp-globalize-webpack/node_modules]\n[/Users/carlos/code/node_modules]\n[/Users/carlos/node_modules]\n[/Users/node_modules]\n[/node_modules]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/relative-time]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/relative-time.es6 .js .ts]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/relative-time]\n @ ./.tmp-globalize-webpack/-Users-carlos-code-webpack-demo-app-index-js.js 11:289-346\n @ ./app/index.js",
+      "./.tmp-globalize-webpack/-Users-carlos-code-webpack-demo-app-index-js.js\nModule not found: Error: Can't resolve 'globalize/dist/globalize-runtime/unit' in '/Users/carlos/code/webpack-demo/.tmp-globalize-webpack'\nresolve 'globalize/dist/globalize-runtime/unit' in '/Users/carlos/code/webpack-demo/.tmp-globalize-webpack'\n  Parsed request is a module\n  using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./.tmp-globalize-webpack)\n    Field 'browser' doesn't contain a valid alias configuration\n  after using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./.tmp-globalize-webpack)\n    resolve as module\n      /Users/carlos/code/webpack-demo/.tmp-globalize-webpack/node_modules doesn't exist or is not a directory\n      /Users/carlos/code/node_modules doesn't exist or is not a directory\n      /Users/carlos/node_modules doesn't exist or is not a directory\n      /Users/node_modules doesn't exist or is not a directory\n      /node_modules doesn't exist or is not a directory\n      looking for modules in /Users/carlos/code/webpack-demo/node_modules\n        using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./node_modules)\n          Field 'browser' doesn't contain a valid alias configuration\n        after using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./node_modules)\n          using description file: /Users/carlos/code/webpack-demo/node_modules/globalize/package.json (relative path: ./dist/globalize-runtime/unit)\n            no extension\n              Field 'browser' doesn't contain a valid alias configuration\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/unit doesn't exist\n            .es6 .js .ts\n              Field 'browser' doesn't contain a valid alias configuration\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/unit.es6 .js .ts doesn't exist\n            as directory\n              /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/unit doesn't exist\n[/Users/carlos/code/webpack-demo/.tmp-globalize-webpack/node_modules]\n[/Users/carlos/code/node_modules]\n[/Users/carlos/node_modules]\n[/Users/node_modules]\n[/node_modules]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/unit]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/unit.es6 .js .ts]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize-runtime/unit]\n @ ./.tmp-globalize-webpack/-Users-carlos-code-webpack-demo-app-index-js.js 11:348-396\n @ ./app/index.js"
+    ],
+    "size": 62572,
+    "assets": [
+      {
+        "name": "i18n/ar.96ea688a37954e3279f4.js",
+        "chunks": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "size": 8468,
+        "minified": true
+      },
+      {
+        "name": "i18n/de.96ea688a37954e3279f4.js",
+        "chunks": [
+          1,
+          0,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "size": 7655,
+        "minified": true
+      },
+      {
+        "name": "i18n/en.96ea688a37954e3279f4.js",
+        "chunks": [
+          2,
+          0,
+          1,
+          3,
+          4,
+          5,
+          6
+        ],
+        "size": 7751,
+        "minified": true
+      },
+      {
+        "name": "i18n/es.96ea688a37954e3279f4.js",
+        "chunks": [
+          3,
+          0,
+          1,
+          2,
+          4,
+          5,
+          6
+        ],
+        "size": 7763,
+        "minified": true
+      },
+      {
+        "name": "i18n/pt.96ea688a37954e3279f4.js",
+        "chunks": [
+          4,
+          0,
+          1,
+          2,
+          3,
+          5,
+          6
+        ],
+        "size": 7799,
+        "minified": true
+      },
+      {
+        "name": "i18n/ru.96ea688a37954e3279f4.js",
+        "chunks": [
+          5,
+          0,
+          1,
+          2,
+          3,
+          4,
+          6
+        ],
+        "size": 8315,
+        "minified": true
+      },
+      {
+        "name": "i18n/zh.96ea688a37954e3279f4.js",
+        "chunks": [
+          6,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "size": 6950,
+        "minified": true
+      },
+      {
+        "name": "app.96ea688a37954e3279f4.js",
+        "chunks": [
+          7
+        ],
+        "size": 2541,
+        "minified": true
+      },
+      {
+        "name": "vendor.bundle.js",
+        "chunks": [
+          8
+        ],
+        "size": 2258,
+        "minified": true
+      },
+      {
+        "name": "index.html",
+        "chunks": [],
+        "size": 3072
+      }
+    ],
+    "chunks": [
+      {
+        "size": 11047,
+        "files": [
+          "i18n/ar.96ea688a37954e3279f4.js"
+        ],
+        "modules": [
+          {
+            "name": "multi ",
+            "size": 16,
+            "id": 0
+          },
+          {
+            "name": "./.tmp-globalize-webpack/-Users-carlos-code-webpack-demo-app-index-js.js",
+            "size": 11031,
+            "id": 1
+          }
+        ]
+      },
+      {
+        "size": 11047,
+        "files": [
+          "i18n/de.96ea688a37954e3279f4.js"
+        ],
+        "modules": [
+          {
+            "name": "multi ",
+            "size": 16,
+            "id": 0
+          },
+          {
+            "name": "./.tmp-globalize-webpack/-Users-carlos-code-webpack-demo-app-index-js.js",
+            "size": 11031,
+            "id": 1
+          }
+        ]
+      },
+      {
+        "size": 11047,
+        "files": [
+          "i18n/en.96ea688a37954e3279f4.js"
+        ],
+        "modules": [
+          {
+            "name": "multi ",
+            "size": 16,
+            "id": 0
+          },
+          {
+            "name": "./.tmp-globalize-webpack/-Users-carlos-code-webpack-demo-app-index-js.js",
+            "size": 11031,
+            "id": 1
+          }
+        ]
+      },
+      {
+        "size": 11047,
+        "files": [
+          "i18n/es.96ea688a37954e3279f4.js"
+        ],
+        "modules": [
+          {
+            "name": "multi ",
+            "size": 16,
+            "id": 0
+          },
+          {
+            "name": "./.tmp-globalize-webpack/-Users-carlos-code-webpack-demo-app-index-js.js",
+            "size": 11031,
+            "id": 1
+          }
+        ]
+      },
+      {
+        "size": 11047,
+        "files": [
+          "i18n/pt.96ea688a37954e3279f4.js"
+        ],
+        "modules": [
+          {
+            "name": "multi ",
+            "size": 16,
+            "id": 0
+          },
+          {
+            "name": "./.tmp-globalize-webpack/-Users-carlos-code-webpack-demo-app-index-js.js",
+            "size": 11031,
+            "id": 1
+          }
+        ]
+      },
+      {
+        "size": 11047,
+        "files": [
+          "i18n/ru.96ea688a37954e3279f4.js"
+        ],
+        "modules": [
+          {
+            "name": "multi ",
+            "size": 16,
+            "id": 0
+          },
+          {
+            "name": "./.tmp-globalize-webpack/-Users-carlos-code-webpack-demo-app-index-js.js",
+            "size": 11031,
+            "id": 1
+          }
+        ]
+      },
+      {
+        "size": 11047,
+        "files": [
+          "i18n/zh.96ea688a37954e3279f4.js"
+        ],
+        "modules": [
+          {
+            "name": "multi ",
+            "size": 16,
+            "id": 0
+          },
+          {
+            "name": "./.tmp-globalize-webpack/-Users-carlos-code-webpack-demo-app-index-js.js",
+            "size": 11031,
+            "id": 1
+          }
+        ]
+      },
+      {
+        "size": 3729,
+        "files": [
+          "app.96ea688a37954e3279f4.js"
+        ],
+        "modules": [
+          {
+            "name": "./app/index.js",
+            "size": 3729,
+            "id": 2
+          }
+        ]
+      },
+      {
+        "size": 112,
+        "files": [
+          "vendor.bundle.js"
+        ],
+        "modules": [
+          {
+            "name": "multi ./node_modules/globalize ./node_modules/globalize/dist/globalize-runtime/number ./node_modules/globalize/dist/globalize-runtime/currency ./node_modules/globalize/dist/globalize-runtime/date ./node_modules/globalize/dist/globalize-runtime/message ./node_modules/globalize/dist/globalize-runtime/plural ./node_modules/globalize/dist/globalize-runtime/relative-time ./node_modules/globalize/dist/globalize-runtime/unit",
+            "size": 112,
+            "id": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "timeStamp": 1510557241765,
+    "time": 4999,
+    "hash": "cb77ece297a3f089dbc4",
+    "errors": [
+      "./node_modules/querystring-es3/index.js\nModule not found: Error: Can't resolve './decode' in '/Users/carlos/code/webpack-demo/node_modules/querystring-es3'\nresolve './decode' in '/Users/carlos/code/webpack-demo/node_modules/querystring-es3'\n  using description file: /Users/carlos/code/webpack-demo/node_modules/querystring-es3/package.json (relative path: .)\n    Field 'browser' doesn't contain a valid alias configuration\n  after using description file: /Users/carlos/code/webpack-demo/node_modules/querystring-es3/package.json (relative path: .)\n    using description file: /Users/carlos/code/webpack-demo/node_modules/querystring-es3/package.json (relative path: ./decode)\n      no extension\n        Field 'browser' doesn't contain a valid alias configuration\n        /Users/carlos/code/webpack-demo/node_modules/querystring-es3/decode doesn't exist\n      .es6 .js .ts\n        Field 'browser' doesn't contain a valid alias configuration\n        /Users/carlos/code/webpack-demo/node_modules/querystring-es3/decode.es6 .js .ts doesn't exist\n      as directory\n        /Users/carlos/code/webpack-demo/node_modules/querystring-es3/decode doesn't exist\n[/Users/carlos/code/webpack-demo/node_modules/querystring-es3/decode]\n[/Users/carlos/code/webpack-demo/node_modules/querystring-es3/decode.es6 .js .ts]\n[/Users/carlos/code/webpack-demo/node_modules/querystring-es3/decode]\n @ ./node_modules/querystring-es3/index.js 3:33-52\n @ ./node_modules/url/url.js\n @ (webpack)-dev-server/client?http://localhost:8080\n @ multi (webpack)-dev-server/client?http://localhost:8080 webpack/hot/dev-server ./app/index.js",
+      "./node_modules/querystring-es3/index.js\nModule not found: Error: Can't resolve './encode' in '/Users/carlos/code/webpack-demo/node_modules/querystring-es3'\nresolve './encode' in '/Users/carlos/code/webpack-demo/node_modules/querystring-es3'\n  using description file: /Users/carlos/code/webpack-demo/node_modules/querystring-es3/package.json (relative path: .)\n    Field 'browser' doesn't contain a valid alias configuration\n  after using description file: /Users/carlos/code/webpack-demo/node_modules/querystring-es3/package.json (relative path: .)\n    using description file: /Users/carlos/code/webpack-demo/node_modules/querystring-es3/package.json (relative path: ./encode)\n      no extension\n        Field 'browser' doesn't contain a valid alias configuration\n        /Users/carlos/code/webpack-demo/node_modules/querystring-es3/encode doesn't exist\n      .es6 .js .ts\n        Field 'browser' doesn't contain a valid alias configuration\n        /Users/carlos/code/webpack-demo/node_modules/querystring-es3/encode.es6 .js .ts doesn't exist\n      as directory\n        /Users/carlos/code/webpack-demo/node_modules/querystring-es3/encode doesn't exist\n[/Users/carlos/code/webpack-demo/node_modules/querystring-es3/encode]\n[/Users/carlos/code/webpack-demo/node_modules/querystring-es3/encode.es6 .js .ts]\n[/Users/carlos/code/webpack-demo/node_modules/querystring-es3/encode]\n @ ./node_modules/querystring-es3/index.js 4:37-56\n @ ./node_modules/url/url.js\n @ (webpack)-dev-server/client?http://localhost:8080\n @ multi (webpack)-dev-server/client?http://localhost:8080 webpack/hot/dev-server ./app/index.js",
+      "./node_modules/globalize/dist/node-main.js\nModule not found: Error: Can't resolve './globalize' in '/Users/carlos/code/webpack-demo/node_modules/globalize/dist'\nresolve './globalize' in '/Users/carlos/code/webpack-demo/node_modules/globalize/dist'\n  using description file: /Users/carlos/code/webpack-demo/node_modules/globalize/package.json (relative path: ./dist)\n    Field 'browser' doesn't contain a valid alias configuration\n  after using description file: /Users/carlos/code/webpack-demo/node_modules/globalize/package.json (relative path: ./dist)\n    using description file: /Users/carlos/code/webpack-demo/node_modules/globalize/package.json (relative path: ./dist/globalize)\n      no extension\n        Field 'browser' doesn't contain a valid alias configuration\n        /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize is not a file\n      .es6 .js .ts\n        Field 'browser' doesn't contain a valid alias configuration\n        /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize.es6 .js .ts doesn't exist\n      as directory\n        existing directory\n          using path: /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize/index\n            using description file: /Users/carlos/code/webpack-demo/node_modules/globalize/package.json (relative path: ./dist/globalize/index)\n              no extension\n                Field 'browser' doesn't contain a valid alias configuration\n                /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize/index doesn't exist\n              .es6 .js .ts\n                Field 'browser' doesn't contain a valid alias configuration\n                /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize/index.es6 .js .ts doesn't exist\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize.es6 .js .ts]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize/index]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize/index.es6 .js .ts]\n @ ./node_modules/globalize/dist/node-main.js 14:17-41\n @ ./.tmp-globalize-webpack/dev-i18n-data.js\n @ ./app/index.js\n @ multi (webpack)-dev-server/client?http://localhost:8080 webpack/hot/dev-server ./app/index.js",
+      "./node_modules/globalize/dist/node-main.js\nModule not found: Error: Can't resolve './globalize/currency' in '/Users/carlos/code/webpack-demo/node_modules/globalize/dist'\nresolve './globalize/currency' in '/Users/carlos/code/webpack-demo/node_modules/globalize/dist'\n  using description file: /Users/carlos/code/webpack-demo/node_modules/globalize/package.json (relative path: ./dist)\n    Field 'browser' doesn't contain a valid alias configuration\n  after using description file: /Users/carlos/code/webpack-demo/node_modules/globalize/package.json (relative path: ./dist)\n    using description file: /Users/carlos/code/webpack-demo/node_modules/globalize/package.json (relative path: ./dist/globalize/currency)\n      no extension\n        Field 'browser' doesn't contain a valid alias configuration\n        /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize/currency doesn't exist\n      .es6 .js .ts\n        Field 'browser' doesn't contain a valid alias configuration\n        /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize/currency.es6 .js .ts doesn't exist\n      as directory\n        /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize/currency doesn't exist\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize/currency]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize/currency.es6 .js .ts]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize/currency]\n @ ./node_modules/globalize/dist/node-main.js 22:0-33\n @ ./.tmp-globalize-webpack/dev-i18n-data.js\n @ ./app/index.js\n @ multi (webpack)-dev-server/client?http://localhost:8080 webpack/hot/dev-server ./app/index.js",
+      "./node_modules/globalize/dist/node-main.js\nModule not found: Error: Can't resolve './globalize/date' in '/Users/carlos/code/webpack-demo/node_modules/globalize/dist'\nresolve './globalize/date' in '/Users/carlos/code/webpack-demo/node_modules/globalize/dist'\n  using description file: /Users/carlos/code/webpack-demo/node_modules/globalize/package.json (relative path: ./dist)\n    Field 'browser' doesn't contain a valid alias configuration\n  after using description file: /Users/carlos/code/webpack-demo/node_modules/globalize/package.json (relative path: ./dist)\n    using description file: /Users/carlos/code/webpack-demo/node_modules/globalize/package.json (relative path: ./dist/globalize/date)\n      no extension\n        Field 'browser' doesn't contain a valid alias configuration\n        /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize/date doesn't exist\n      .es6 .js .ts\n        Field 'browser' doesn't contain a valid alias configuration\n        /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize/date.es6 .js .ts doesn't exist\n      as directory\n        /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize/date doesn't exist\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize/date]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize/date.es6 .js .ts]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize/date]\n @ ./node_modules/globalize/dist/node-main.js 23:0-29\n @ ./.tmp-globalize-webpack/dev-i18n-data.js\n @ ./app/index.js\n @ multi (webpack)-dev-server/client?http://localhost:8080 webpack/hot/dev-server ./app/index.js",
+      "./node_modules/globalize/dist/node-main.js\nModule not found: Error: Can't resolve './globalize/message' in '/Users/carlos/code/webpack-demo/node_modules/globalize/dist'\nresolve './globalize/message' in '/Users/carlos/code/webpack-demo/node_modules/globalize/dist'\n  using description file: /Users/carlos/code/webpack-demo/node_modules/globalize/package.json (relative path: ./dist)\n    Field 'browser' doesn't contain a valid alias configuration\n  after using description file: /Users/carlos/code/webpack-demo/node_modules/globalize/package.json (relative path: ./dist)\n    using description file: /Users/carlos/code/webpack-demo/node_modules/globalize/package.json (relative path: ./dist/globalize/message)\n      no extension\n        Field 'browser' doesn't contain a valid alias configuration\n        /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize/message doesn't exist\n      .es6 .js .ts\n        Field 'browser' doesn't contain a valid alias configuration\n        /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize/message.es6 .js .ts doesn't exist\n      as directory\n        /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize/message doesn't exist\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize/message]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize/message.es6 .js .ts]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize/message]\n @ ./node_modules/globalize/dist/node-main.js 17:0-32\n @ ./.tmp-globalize-webpack/dev-i18n-data.js\n @ ./app/index.js\n @ multi (webpack)-dev-server/client?http://localhost:8080 webpack/hot/dev-server ./app/index.js",
+      "./node_modules/globalize/dist/node-main.js\nModule not found: Error: Can't resolve './globalize/number' in '/Users/carlos/code/webpack-demo/node_modules/globalize/dist'\nresolve './globalize/number' in '/Users/carlos/code/webpack-demo/node_modules/globalize/dist'\n  using description file: /Users/carlos/code/webpack-demo/node_modules/globalize/package.json (relative path: ./dist)\n    Field 'browser' doesn't contain a valid alias configuration\n  after using description file: /Users/carlos/code/webpack-demo/node_modules/globalize/package.json (relative path: ./dist)\n    using description file: /Users/carlos/code/webpack-demo/node_modules/globalize/package.json (relative path: ./dist/globalize/number)\n      no extension\n        Field 'browser' doesn't contain a valid alias configuration\n        /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize/number doesn't exist\n      .es6 .js .ts\n        Field 'browser' doesn't contain a valid alias configuration\n        /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize/number.es6 .js .ts doesn't exist\n      as directory\n        /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize/number doesn't exist\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize/number]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize/number.es6 .js .ts]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize/number]\n @ ./node_modules/globalize/dist/node-main.js 18:0-31\n @ ./.tmp-globalize-webpack/dev-i18n-data.js\n @ ./app/index.js\n @ multi (webpack)-dev-server/client?http://localhost:8080 webpack/hot/dev-server ./app/index.js",
+      "./node_modules/globalize/dist/node-main.js\nModule not found: Error: Can't resolve './globalize/plural' in '/Users/carlos/code/webpack-demo/node_modules/globalize/dist'\nresolve './globalize/plural' in '/Users/carlos/code/webpack-demo/node_modules/globalize/dist'\n  using description file: /Users/carlos/code/webpack-demo/node_modules/globalize/package.json (relative path: ./dist)\n    Field 'browser' doesn't contain a valid alias configuration\n  after using description file: /Users/carlos/code/webpack-demo/node_modules/globalize/package.json (relative path: ./dist)\n    using description file: /Users/carlos/code/webpack-demo/node_modules/globalize/package.json (relative path: ./dist/globalize/plural)\n      no extension\n        Field 'browser' doesn't contain a valid alias configuration\n        /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize/plural doesn't exist\n      .es6 .js .ts\n        Field 'browser' doesn't contain a valid alias configuration\n        /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize/plural.es6 .js .ts doesn't exist\n      as directory\n        /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize/plural doesn't exist\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize/plural]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize/plural.es6 .js .ts]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize/plural]\n @ ./node_modules/globalize/dist/node-main.js 19:0-31\n @ ./.tmp-globalize-webpack/dev-i18n-data.js\n @ ./app/index.js\n @ multi (webpack)-dev-server/client?http://localhost:8080 webpack/hot/dev-server ./app/index.js",
+      "./node_modules/globalize/dist/node-main.js\nModule not found: Error: Can't resolve './globalize/relative-time' in '/Users/carlos/code/webpack-demo/node_modules/globalize/dist'\nresolve './globalize/relative-time' in '/Users/carlos/code/webpack-demo/node_modules/globalize/dist'\n  using description file: /Users/carlos/code/webpack-demo/node_modules/globalize/package.json (relative path: ./dist)\n    Field 'browser' doesn't contain a valid alias configuration\n  after using description file: /Users/carlos/code/webpack-demo/node_modules/globalize/package.json (relative path: ./dist)\n    using description file: /Users/carlos/code/webpack-demo/node_modules/globalize/package.json (relative path: ./dist/globalize/relative-time)\n      no extension\n        Field 'browser' doesn't contain a valid alias configuration\n        /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize/relative-time doesn't exist\n      .es6 .js .ts\n        Field 'browser' doesn't contain a valid alias configuration\n        /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize/relative-time.es6 .js .ts doesn't exist\n      as directory\n        /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize/relative-time doesn't exist\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize/relative-time]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize/relative-time.es6 .js .ts]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize/relative-time]\n @ ./node_modules/globalize/dist/node-main.js 26:0-38\n @ ./.tmp-globalize-webpack/dev-i18n-data.js\n @ ./app/index.js\n @ multi (webpack)-dev-server/client?http://localhost:8080 webpack/hot/dev-server ./app/index.js",
+      "./node_modules/globalize/dist/node-main.js\nModule not found: Error: Can't resolve './globalize/unit' in '/Users/carlos/code/webpack-demo/node_modules/globalize/dist'\nresolve './globalize/unit' in '/Users/carlos/code/webpack-demo/node_modules/globalize/dist'\n  using description file: /Users/carlos/code/webpack-demo/node_modules/globalize/package.json (relative path: ./dist)\n    Field 'browser' doesn't contain a valid alias configuration\n  after using description file: /Users/carlos/code/webpack-demo/node_modules/globalize/package.json (relative path: ./dist)\n    using description file: /Users/carlos/code/webpack-demo/node_modules/globalize/package.json (relative path: ./dist/globalize/unit)\n      no extension\n        Field 'browser' doesn't contain a valid alias configuration\n        /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize/unit doesn't exist\n      .es6 .js .ts\n        Field 'browser' doesn't contain a valid alias configuration\n        /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize/unit.es6 .js .ts doesn't exist\n      as directory\n        /Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize/unit doesn't exist\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize/unit]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize/unit.es6 .js .ts]\n[/Users/carlos/code/webpack-demo/node_modules/globalize/dist/globalize/unit]\n @ ./node_modules/globalize/dist/node-main.js 27:0-29\n @ ./.tmp-globalize-webpack/dev-i18n-data.js\n @ ./app/index.js\n @ multi (webpack)-dev-server/client?http://localhost:8080 webpack/hot/dev-server ./app/index.js",
+      "(webpack)-dev-server/client?http://localhost:8080\nModule not found: Error: Can't resolve './socket' in '/Users/carlos/code/webpack-demo/node_modules/webpack-dev-server/client'\nresolve './socket' in '/Users/carlos/code/webpack-demo/node_modules/webpack-dev-server/client'\n  using description file: /Users/carlos/code/webpack-demo/node_modules/webpack-dev-server/package.json (relative path: ./client)\n    Field 'browser' doesn't contain a valid alias configuration\n  after using description file: /Users/carlos/code/webpack-demo/node_modules/webpack-dev-server/package.json (relative path: ./client)\n    using description file: /Users/carlos/code/webpack-demo/node_modules/webpack-dev-server/package.json (relative path: ./client/socket)\n      no extension\n        Field 'browser' doesn't contain a valid alias configuration\n        /Users/carlos/code/webpack-demo/node_modules/webpack-dev-server/client/socket doesn't exist\n      .es6 .js .ts\n        Field 'browser' doesn't contain a valid alias configuration\n        /Users/carlos/code/webpack-demo/node_modules/webpack-dev-server/client/socket.es6 .js .ts doesn't exist\n      as directory\n        /Users/carlos/code/webpack-demo/node_modules/webpack-dev-server/client/socket doesn't exist\n[/Users/carlos/code/webpack-demo/node_modules/webpack-dev-server/client/socket]\n[/Users/carlos/code/webpack-demo/node_modules/webpack-dev-server/client/socket.es6 .js .ts]\n[/Users/carlos/code/webpack-demo/node_modules/webpack-dev-server/client/socket]\n @ (webpack)-dev-server/client?http://localhost:8080 3:13-32\n @ multi (webpack)-dev-server/client?http://localhost:8080 webpack/hot/dev-server ./app/index.js",
+      "./node_modules/url/url.js\nModule not found: Error: Can't resolve './util' in '/Users/carlos/code/webpack-demo/node_modules/url'\nresolve './util' in '/Users/carlos/code/webpack-demo/node_modules/url'\n  using description file: /Users/carlos/code/webpack-demo/node_modules/url/package.json (relative path: .)\n    Field 'browser' doesn't contain a valid alias configuration\n  after using description file: /Users/carlos/code/webpack-demo/node_modules/url/package.json (relative path: .)\n    using description file: /Users/carlos/code/webpack-demo/node_modules/url/package.json (relative path: ./util)\n      no extension\n        Field 'browser' doesn't contain a valid alias configuration\n        /Users/carlos/code/webpack-demo/node_modules/url/util doesn't exist\n      .es6 .js .ts\n        Field 'browser' doesn't contain a valid alias configuration\n        /Users/carlos/code/webpack-demo/node_modules/url/util.es6 .js .ts doesn't exist\n      as directory\n        /Users/carlos/code/webpack-demo/node_modules/url/util doesn't exist\n[/Users/carlos/code/webpack-demo/node_modules/url/util]\n[/Users/carlos/code/webpack-demo/node_modules/url/util.es6 .js .ts]\n[/Users/carlos/code/webpack-demo/node_modules/url/util]\n @ ./node_modules/url/url.js 25:11-28\n @ (webpack)-dev-server/client?http://localhost:8080\n @ multi (webpack)-dev-server/client?http://localhost:8080 webpack/hot/dev-server ./app/index.js",
+      "(webpack)-dev-server/client?http://localhost:8080\nModule not found: Error: Can't resolve 'strip-ansi' in '/Users/carlos/code/webpack-demo/node_modules/webpack-dev-server/client'\nresolve 'strip-ansi' in '/Users/carlos/code/webpack-demo/node_modules/webpack-dev-server/client'\n  Parsed request is a module\n  using description file: /Users/carlos/code/webpack-demo/node_modules/webpack-dev-server/package.json (relative path: ./client)\n    Field 'browser' doesn't contain a valid alias configuration\n  after using description file: /Users/carlos/code/webpack-demo/node_modules/webpack-dev-server/package.json (relative path: ./client)\n    resolve as module\n      /Users/carlos/code/webpack-demo/node_modules/webpack-dev-server/client/node_modules doesn't exist or is not a directory\n      /Users/carlos/code/webpack-demo/node_modules/node_modules doesn't exist or is not a directory\n      /Users/carlos/code/node_modules doesn't exist or is not a directory\n      /Users/carlos/node_modules doesn't exist or is not a directory\n      /Users/node_modules doesn't exist or is not a directory\n      /node_modules doesn't exist or is not a directory\n      looking for modules in /Users/carlos/code/webpack-demo/node_modules/webpack-dev-server/node_modules\n        using description file: /Users/carlos/code/webpack-demo/node_modules/webpack-dev-server/package.json (relative path: ./node_modules)\n          Field 'browser' doesn't contain a valid alias configuration\n        after using description file: /Users/carlos/code/webpack-demo/node_modules/webpack-dev-server/package.json (relative path: ./node_modules)\n          using description file: /Users/carlos/code/webpack-demo/node_modules/webpack-dev-server/package.json (relative path: ./node_modules/strip-ansi)\n            no extension\n              Field 'browser' doesn't contain a valid alias configuration\n              /Users/carlos/code/webpack-demo/node_modules/webpack-dev-server/node_modules/strip-ansi doesn't exist\n            .es6 .js .ts\n              Field 'browser' doesn't contain a valid alias configuration\n              /Users/carlos/code/webpack-demo/node_modules/webpack-dev-server/node_modules/strip-ansi.es6 .js .ts doesn't exist\n            as directory\n              /Users/carlos/code/webpack-demo/node_modules/webpack-dev-server/node_modules/strip-ansi doesn't exist\n      looking for modules in /Users/carlos/code/webpack-demo/node_modules\n        using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./node_modules)\n          Field 'browser' doesn't contain a valid alias configuration\n        after using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./node_modules)\n          using description file: /Users/carlos/code/webpack-demo/node_modules/strip-ansi/package.json (relative path: .)\n            no extension\n              Field 'browser' doesn't contain a valid alias configuration\n              /Users/carlos/code/webpack-demo/node_modules/strip-ansi is not a file\n            .es6 .js .ts\n              Field 'browser' doesn't contain a valid alias configuration\n              /Users/carlos/code/webpack-demo/node_modules/strip-ansi.es6 .js .ts doesn't exist\n            as directory\n              existing directory\n                using path: /Users/carlos/code/webpack-demo/node_modules/strip-ansi/index\n                  using description file: /Users/carlos/code/webpack-demo/node_modules/strip-ansi/package.json (relative path: ./index)\n                    no extension\n                      Field 'browser' doesn't contain a valid alias configuration\n                      /Users/carlos/code/webpack-demo/node_modules/strip-ansi/index doesn't exist\n                    .es6 .js .ts\n                      Field 'browser' doesn't contain a valid alias configuration\n                      /Users/carlos/code/webpack-demo/node_modules/strip-ansi/index.es6 .js .ts doesn't exist\n[/Users/carlos/code/webpack-demo/node_modules/webpack-dev-server/client/node_modules]\n[/Users/carlos/code/webpack-demo/node_modules/node_modules]\n[/Users/carlos/code/node_modules]\n[/Users/carlos/node_modules]\n[/Users/node_modules]\n[/node_modules]\n[/Users/carlos/code/webpack-demo/node_modules/strip-ansi]\n[/Users/carlos/code/webpack-demo/node_modules/webpack-dev-server/node_modules/strip-ansi]\n[/Users/carlos/code/webpack-demo/node_modules/strip-ansi.es6 .js .ts]\n[/Users/carlos/code/webpack-demo/node_modules/webpack-dev-server/node_modules/strip-ansi.es6 .js .ts]\n[/Users/carlos/code/webpack-demo/node_modules/webpack-dev-server/node_modules/strip-ansi]\n[/Users/carlos/code/webpack-demo/node_modules/strip-ansi/index]\n[/Users/carlos/code/webpack-demo/node_modules/strip-ansi/index.es6 .js .ts]\n @ (webpack)-dev-server/client?http://localhost:8080 2:16-37\n @ multi (webpack)-dev-server/client?http://localhost:8080 webpack/hot/dev-server ./app/index.js",
+      "multi (webpack)-dev-server/client?http://localhost:8080 webpack/hot/dev-server ./app/index.js\nModule not found: Error: Can't resolve 'webpack/hot/dev-server' in '/Users/carlos/code/webpack-demo'\nresolve 'webpack/hot/dev-server' in '/Users/carlos/code/webpack-demo'\n  Parsed request is a module\n  using description file: /Users/carlos/code/webpack-demo/package.json (relative path: .)\n    Field 'browser' doesn't contain a valid alias configuration\n  after using description file: /Users/carlos/code/webpack-demo/package.json (relative path: .)\n    resolve as module\n      /Users/carlos/code/node_modules doesn't exist or is not a directory\n      /Users/carlos/node_modules doesn't exist or is not a directory\n      /Users/node_modules doesn't exist or is not a directory\n      /node_modules doesn't exist or is not a directory\n      looking for modules in /Users/carlos/code/webpack-demo/node_modules\n        using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./node_modules)\n          Field 'browser' doesn't contain a valid alias configuration\n        after using description file: /Users/carlos/code/webpack-demo/package.json (relative path: ./node_modules)\n          using description file: /Users/carlos/code/webpack-demo/node_modules/webpack/package.json (relative path: ./hot/dev-server)\n            no extension\n              Field 'browser' doesn't contain a valid alias configuration\n              /Users/carlos/code/webpack-demo/node_modules/webpack/hot/dev-server doesn't exist\n            .es6 .js .ts\n              Field 'browser' doesn't contain a valid alias configuration\n              /Users/carlos/code/webpack-demo/node_modules/webpack/hot/dev-server.es6 .js .ts doesn't exist\n            as directory\n              /Users/carlos/code/webpack-demo/node_modules/webpack/hot/dev-server doesn't exist\n[/Users/carlos/code/node_modules]\n[/Users/carlos/node_modules]\n[/Users/node_modules]\n[/node_modules]\n[/Users/carlos/code/webpack-demo/node_modules/webpack/hot/dev-server]\n[/Users/carlos/code/webpack-demo/node_modules/webpack/hot/dev-server.es6 .js .ts]\n[/Users/carlos/code/webpack-demo/node_modules/webpack/hot/dev-server]\n @ multi (webpack)-dev-server/client?http://localhost:8080 webpack/hot/dev-server ./app/index.js"
+    ],
+    "size": 1682307,
+    "assets": [
+      {
+        "name": "app.js",
+        "chunks": [
+          0
+        ],
+        "size": 1671583,
+        "minified": true
+      },
+      {
+        "name": "vendor.bundle.js",
+        "chunks": [
+          1
+        ],
+        "size": 8499,
+        "minified": true
+      },
+      {
+        "name": "index.html",
+        "chunks": [],
+        "size": 2225
+      }
+    ],
+    "chunks": [
+      {
+        "size": 1894632,
+        "files": [
+          "app.js"
+        ],
+        "modules": [
+          {
+            "name": "multi (webpack)-dev-server/client?http://localhost:8080 webpack/hot/dev-server ./app/index.js",
+            "size": 52,
+            "id": 0
+          },
+          {
+            "name": "(webpack)-dev-server/client?http://localhost:8080",
+            "size": 4159,
+            "id": 1
+          },
+          {
+            "name": "./node_modules/url/url.js",
+            "size": 23317,
+            "id": 2
+          },
+          {
+            "name": "./node_modules/punycode/punycode.js",
+            "size": 14670,
+            "id": 3
+          },
+          {
+            "name": "(webpack)/buildin/module.js",
+            "size": 495,
+            "id": 4
+          },
+          {
+            "name": "(webpack)/buildin/global.js",
+            "size": 488,
+            "id": 5
+          },
+          {
+            "name": "./node_modules/querystring-es3/index.js",
+            "size": 127,
+            "id": 6
+          },
+          {
+            "name": "./app/index.js",
+            "size": 3729,
+            "id": 7
+          },
+          {
+            "name": "./.tmp-globalize-webpack/dev-i18n-data.js",
+            "size": 1846959,
+            "id": 8
+          },
+          {
+            "name": "./node_modules/globalize/dist/node-main.js",
+            "size": 636,
+            "id": 9
+          }
+        ]
+      },
+      {
+        "size": 0,
+        "files": [
+          "vendor.bundle.js"
+        ],
+        "modules": []
+      }
+    ]
+  },
+  {
+    "timeStamp": 1510559274729,
+    "time": 10939,
+    "hash": "c931e43a21e0d9f9e800",
+    "errors": [],
+    "size": 1858158,
+    "assets": [
+      {
+        "name": "app.js",
+        "chunks": [
+          0
+        ],
+        "size": 1847434,
+        "miniSize": 1848391,
+        "minified": false
+      },
+      {
+        "name": "vendor.bundle.js",
+        "chunks": [
+          1
+        ],
+        "size": 8499,
+        "minified": true
+      },
+      {
+        "name": "index.html",
+        "chunks": [],
+        "size": 2225
+      }
+    ],
+    "chunks": [
+      {
+        "size": 2356221,
+        "files": [
+          "app.js"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/inherits/inherits_browser.js",
+            "size": 672,
+            "id": 0
+          },
+          {
+            "name": "(webpack)/buildin/global.js",
+            "size": 488,
+            "id": 1
+          },
+          {
+            "name": "./node_modules/process/browser.js",
+            "size": 5418,
+            "id": 2
+          },
+          {
+            "name": "./node_modules/debug/src/browser.js",
+            "size": 4734,
+            "id": 3
+          },
+          {
+            "name": "./node_modules/sockjs-client/lib/event/emitter.js",
+            "size": 1270,
+            "id": 4
+          },
+          {
+            "name": "./node_modules/sockjs-client/lib/utils/url.js",
+            "size": 975,
+            "id": 5
+          },
+          {
+            "name": "./node_modules/json3/lib/json3.js",
+            "size": 43296,
+            "id": 6
+          },
+          {
+            "name": "./node_modules/sockjs-client/lib/utils/event.js",
+            "size": 2000,
+            "id": 7
+          },
+          {
+            "name": "./node_modules/globalize/dist/globalize.js",
+            "size": 8888,
+            "id": 8
+          },
+          {
+            "name": "./node_modules/cldrjs/dist/node_main.js",
+            "size": 496,
+            "id": 9
+          },
+          {
+            "name": "./node_modules/sockjs-client/lib/utils/random.js",
+            "size": 746,
+            "id": 10
+          },
+          {
+            "name": "./node_modules/sockjs-client/lib/transport/lib/ajax-based.js",
+            "size": 1310,
+            "id": 11
+          },
+          {
+            "name": "./node_modules/sockjs-client/lib/transport/sender/xhr-local.js",
+            "size": 352,
+            "id": 12
+          },
+          {
+            "name": "./node_modules/sockjs-client/lib/utils/browser.js",
+            "size": 560,
+            "id": 13
+          },
+          {
+            "name": "./node_modules/sockjs-client/lib/utils/iframe.js",
+            "size": 5030,
+            "id": 14
+          },
+          {
+            "name": "./node_modules/sockjs-client/lib/transport/receiver/xhr.js",
+            "size": 1583,
+            "id": 15
+          },
+          {
+            "name": "./node_modules/sockjs-client/lib/transport/sender/xhr-cors.js",
+            "size": 343,
+            "id": 16
+          },
+          {
+            "name": "./node_modules/cldrjs/dist/cldr.js",
+            "size": 17654,
+            "id": 17
+          },
+          {
+            "name": "./node_modules/sockjs-client/lib/transport/sender/xdr.js",
+            "size": 2456,
+            "id": 18
+          },
+          {
+            "name": "./node_modules/sockjs-client/lib/transport/lib/iframe-wrap.js",
+            "size": 981,
+            "id": 19
+          },
+          {
+            "name": "./node_modules/sockjs-client/lib/utils/object.js",
+            "size": 532,
+            "id": 20
+          },
+          {
+            "name": "./node_modules/sockjs-client/lib/event/event.js",
+            "size": 477,
+            "id": 21
+          },
+          {
+            "name": "(webpack)/buildin/module.js",
+            "size": 495,
+            "id": 22
+          },
+          {
+            "name": "./node_modules/url-parse/index.js",
+            "size": 11517,
+            "id": 23
+          },
+          {
+            "name": "./node_modules/sockjs-client/lib/event/eventtarget.js",
+            "size": 1855,
+            "id": 24
+          },
+          {
+            "name": "./node_modules/sockjs-client/lib/transport/lib/sender-receiver.js",
+            "size": 1175,
+            "id": 25
+          },
+          {
+            "name": "./node_modules/sockjs-client/lib/transport/browser/abstract-xhr.js",
+            "size": 4798,
+            "id": 26
+          },
+          {
+            "name": "./node_modules/sockjs-client/lib/transport/xdr-streaming.js",
+            "size": 984,
+            "id": 27
+          },
+          {
+            "name": "./node_modules/sockjs-client/lib/transport/eventsource.js",
+            "size": 766,
+            "id": 28
+          },
+          {
+            "name": "./node_modules/sockjs-client/lib/transport/browser/eventsource.js",
+            "size": 37,
+            "id": 29
+          },
+          {
+            "name": "./node_modules/sockjs-client/lib/transport/iframe.js",
+            "size": 3835,
+            "id": 30
+          },
+          {
+            "name": "./node_modules/sockjs-client/lib/version.js",
+            "size": 26,
+            "id": 31
+          },
+          {
+            "name": "./node_modules/sockjs-client/lib/transport/htmlfile.js",
+            "size": 710,
+            "id": 32
+          },
+          {
+            "name": "./node_modules/sockjs-client/lib/transport/xhr-polling.js",
+            "size": 894,
+            "id": 33
+          },
+          {
+            "name": "./node_modules/sockjs-client/lib/location.js",
+            "size": 177,
+            "id": 34
+          },
+          {
+            "name": "./node_modules/sockjs-client/lib/info-iframe-receiver.js",
+            "size": 791,
+            "id": 35
+          },
+          {
+            "name": "./node_modules/sockjs-client/lib/info-ajax.js",
+            "size": 1032,
+            "id": 36
+          },
+          {
+            "name": "(webpack)/hot/log.js",
+            "size": 1000,
+            "id": 37
+          },
+          {
+            "name": "multi (webpack)-dev-server/client?http://localhost:8080 webpack/hot/dev-server ./app/index.js",
+            "size": 52,
+            "id": 38
+          },
+          {
+            "name": "(webpack)-dev-server/client?http://localhost:8080",
+            "size": 4159,
+            "id": 39
+          },
+          {
+            "name": "./node_modules/url/url.js",
+            "size": 23317,
+            "id": 40
+          },
+          {
+            "name": "./node_modules/punycode/punycode.js",
+            "size": 14670,
+            "id": 41
+          },
+          {
+            "name": "./node_modules/url/util.js",
+            "size": 314,
+            "id": 42
+          },
+          {
+            "name": "./node_modules/querystring-es3/index.js",
+            "size": 127,
+            "id": 43
+          },
+          {
+            "name": "./node_modules/querystring-es3/decode.js",
+            "size": 2510,
+            "id": 44
+          },
+          {
+            "name": "./node_modules/querystring-es3/encode.js",
+            "size": 2544,
+            "id": 45
+          },
+          {
+            "name": "./node_modules/strip-ansi/index.js",
+            "size": 161,
+            "id": 46
+          },
+          {
+            "name": "./node_modules/ansi-regex/index.js",
+            "size": 135,
+            "id": 47
+          },
+          {
+            "name": "(webpack)-dev-server/client/socket.js",
+            "size": 897,
+            "id": 48
+          },
+          {
+            "name": "./node_modules/sockjs-client/lib/entry.js",
+            "size": 244,
+            "id": 49
+          },
+          {
+            "name": "./node_modules/sockjs-client/lib/transport-list.js",
+            "size": 613,
+            "id": 50
+          },
+          {
+            "name": "./node_modules/sockjs-client/lib/transport/websocket.js",
+            "size": 2723,
+            "id": 51
+          },
+          {
+            "name": "./node_modules/sockjs-client/lib/utils/browser-crypto.js",
+            "size": 438,
+            "id": 52
+          },
+          {
+            "name": "./node_modules/requires-port/index.js",
+            "size": 753,
+            "id": 53
+          },
+          {
+            "name": "./node_modules/url-parse/node_modules/querystringify/index.js",
+            "size": 1511,
+            "id": 54
+          },
+          {
+            "name": "./node_modules/debug/src/debug.js",
+            "size": 4394,
+            "id": 55
+          },
+          {
+            "name": "./node_modules/ms/index.js",
+            "size": 2764,
+            "id": 56
+          },
+          {
+            "name": "./node_modules/sockjs-client/lib/transport/browser/websocket.js",
+            "size": 210,
+            "id": 57
+          },
+          {
+            "name": "./node_modules/sockjs-client/lib/transport/xhr-streaming.js",
+            "size": 1248,
+            "id": 58
+          },
+          {
+            "name": "./node_modules/sockjs-client/lib/transport/lib/buffered-sender.js",
+            "size": 2296,
+            "id": 59
+          },
+          {
+            "name": "./node_modules/sockjs-client/lib/transport/lib/polling.js",
+            "size": 1316,
+            "id": 60
+          },
+          {
+            "name": "./node_modules/sockjs-client/lib/transport/receiver/eventsource.js",
+            "size": 1585,
+            "id": 61
+          },
+          {
+            "name": "(webpack)/buildin/amd-options.js",
+            "size": 80,
+            "id": 62
+          },
+          {
+            "name": "./node_modules/sockjs-client/lib/transport/receiver/htmlfile.js",
+            "size": 2204,
+            "id": 63
+          },
+          {
+            "name": "./node_modules/sockjs-client/lib/transport/xdr-polling.js",
+            "size": 712,
+            "id": 64
+          },
+          {
+            "name": "./node_modules/sockjs-client/lib/transport/jsonp-polling.js",
+            "size": 1016,
+            "id": 65
+          },
+          {
+            "name": "./node_modules/sockjs-client/lib/transport/receiver/jsonp.js",
+            "size": 5570,
+            "id": 66
+          },
+          {
+            "name": "./node_modules/sockjs-client/lib/transport/sender/jsonp.js",
+            "size": 2464,
+            "id": 67
+          },
+          {
+            "name": "./node_modules/sockjs-client/lib/main.js",
+            "size": 11915,
+            "id": 68
+          },
+          {
+            "name": "./node_modules/sockjs-client/lib/shims.js",
+            "size": 17204,
+            "id": 69
+          },
+          {
+            "name": "./node_modules/sockjs-client/lib/utils/escape.js",
+            "size": 2357,
+            "id": 70
+          },
+          {
+            "name": "./node_modules/sockjs-client/lib/utils/transport.js",
+            "size": 1354,
+            "id": 71
+          },
+          {
+            "name": "./node_modules/sockjs-client/lib/utils/log.js",
+            "size": 450,
+            "id": 72
+          },
+          {
+            "name": "./node_modules/sockjs-client/lib/event/close.js",
+            "size": 295,
+            "id": 73
+          },
+          {
+            "name": "./node_modules/sockjs-client/lib/event/trans-message.js",
+            "size": 292,
+            "id": 74
+          },
+          {
+            "name": "./node_modules/sockjs-client/lib/info-receiver.js",
+            "size": 2223,
+            "id": 75
+          },
+          {
+            "name": "./node_modules/sockjs-client/lib/transport/sender/xhr-fake.js",
+            "size": 456,
+            "id": 76
+          },
+          {
+            "name": "./node_modules/sockjs-client/lib/info-iframe.js",
+            "size": 1520,
+            "id": 77
+          },
+          {
+            "name": "./node_modules/sockjs-client/lib/iframe-bootstrap.js",
+            "size": 2901,
+            "id": 78
+          },
+          {
+            "name": "./node_modules/sockjs-client/lib/facade.js",
+            "size": 723,
+            "id": 79
+          },
+          {
+            "name": "(webpack)/hot/dev-server.js",
+            "size": 1562,
+            "id": 80
+          },
+          {
+            "name": "(webpack)/hot/log-apply-result.js",
+            "size": 1275,
+            "id": 81
+          },
+          {
+            "name": "(webpack)/hot/emitter.js",
+            "size": 75,
+            "id": 82
+          },
+          {
+            "name": "./node_modules/events/events.js",
+            "size": 8328,
+            "id": 83
+          },
+          {
+            "name": "./app/index.js",
+            "size": 3729,
+            "id": 84
+          },
+          {
+            "name": "./.tmp-globalize-webpack/dev-i18n-data.js",
+            "size": 1846959,
+            "id": 85
+          },
+          {
+            "name": "./node_modules/globalize/dist/node-main.js",
+            "size": 636,
+            "id": 86
+          },
+          {
+            "name": "./node_modules/cldrjs/dist/cldr/event.js",
+            "size": 18646,
+            "id": 87
+          },
+          {
+            "name": "./node_modules/cldrjs/dist/cldr/supplemental.js",
+            "size": 2402,
+            "id": 88
+          },
+          {
+            "name": "./node_modules/cldrjs/dist/cldr/unresolved.js",
+            "size": 3995,
+            "id": 89
+          },
+          {
+            "name": "./node_modules/globalize/dist/globalize/message.js",
+            "size": 61894,
+            "id": 90
+          },
+          {
+            "name": "./node_modules/globalize/dist/globalize/number.js",
+            "size": 39356,
+            "id": 91
+          },
+          {
+            "name": "./node_modules/globalize/dist/globalize/plural.js",
+            "size": 12751,
+            "id": 92
+          },
+          {
+            "name": "./node_modules/globalize/dist/globalize/currency.js",
+            "size": 13859,
+            "id": 93
+          },
+          {
+            "name": "./node_modules/globalize/dist/globalize/date.js",
+            "size": 74588,
+            "id": 94
+          },
+          {
+            "name": "./node_modules/globalize/dist/globalize/relative-time.js",
+            "size": 5097,
+            "id": 95
+          },
+          {
+            "name": "./node_modules/globalize/dist/globalize/unit.js",
+            "size": 7999,
+            "id": 96
+          }
+        ]
+      },
+      {
+        "size": 0,
+        "files": [
+          "vendor.bundle.js"
+        ],
+        "modules": []
+      }
+    ]
+  },
+  {
+    "timeStamp": 1510559653130,
+    "time": 8614,
+    "hash": "5511e3ba509c9294df0c",
+    "errors": [],
+    "size": 1743448,
+    "assets": [
+      {
+        "name": "app.js",
+        "chunks": [
+          0
+        ],
+        "size": 1739840,
+        "miniSize": 1740343,
+        "minified": false
+      },
+      {
+        "name": "vendor.bundle.js",
+        "chunks": [
+          1
+        ],
+        "size": 1383,
+        "minified": true
+      },
+      {
+        "name": "index.html",
+        "chunks": [],
+        "size": 2225
+      }
+    ],
+    "chunks": [
+      {
+        "size": 2118949,
+        "files": [
+          "app.js"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/globalize/dist/globalize.js",
+            "size": 8888,
+            "id": 0
+          },
+          {
+            "name": "./node_modules/cldrjs/dist/node_main.js",
+            "size": 496,
+            "id": 1
+          },
+          {
+            "name": "./node_modules/cldrjs/dist/cldr.js",
+            "size": 17654,
+            "id": 2
+          },
+          {
+            "name": "./app/index.js",
+            "size": 3729,
+            "id": 3
+          },
+          {
+            "name": "./.tmp-globalize-webpack/dev-i18n-data.js",
+            "size": 1846959,
+            "id": 4
+          },
+          {
+            "name": "./node_modules/globalize/dist/node-main.js",
+            "size": 636,
+            "id": 5
+          },
+          {
+            "name": "./node_modules/cldrjs/dist/cldr/event.js",
+            "size": 18646,
+            "id": 6
+          },
+          {
+            "name": "./node_modules/cldrjs/dist/cldr/supplemental.js",
+            "size": 2402,
+            "id": 7
+          },
+          {
+            "name": "./node_modules/cldrjs/dist/cldr/unresolved.js",
+            "size": 3995,
+            "id": 8
+          },
+          {
+            "name": "./node_modules/globalize/dist/globalize/message.js",
+            "size": 61894,
+            "id": 9
+          },
+          {
+            "name": "./node_modules/globalize/dist/globalize/number.js",
+            "size": 39356,
+            "id": 10
+          },
+          {
+            "name": "./node_modules/globalize/dist/globalize/plural.js",
+            "size": 12751,
+            "id": 11
+          },
+          {
+            "name": "./node_modules/globalize/dist/globalize/currency.js",
+            "size": 13859,
+            "id": 12
+          },
+          {
+            "name": "./node_modules/globalize/dist/globalize/date.js",
+            "size": 74588,
+            "id": 13
+          },
+          {
+            "name": "./node_modules/globalize/dist/globalize/relative-time.js",
+            "size": 5097,
+            "id": 14
+          },
+          {
+            "name": "./node_modules/globalize/dist/globalize/unit.js",
+            "size": 7999,
+            "id": 15
+          }
+        ]
+      },
+      {
+        "size": 0,
+        "files": [
+          "vendor.bundle.js"
+        ],
+        "modules": []
+      }
+    ]
+  }
+]
