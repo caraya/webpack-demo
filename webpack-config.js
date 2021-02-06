@@ -134,14 +134,14 @@ module.exports = {
 			compress: {
 			warnings: false
 			}
-		}),
+		})//,
 		// Generates precaching service worker based on our existing directories
-		new workboxPlugin({
-			globDirectory: "./dist",
-			globPatterns: ['**/*.{html,css,js}'],
-			swDest: "./dist/sw.js",
-			clientsClaim: true,
-			skipWaiting: true,
-		})
+		// new workboxPlugin({
+		// 	globDirectory: "./dist",
+		// 	globPatterns: ['**/*.{html,css,js}'],
+		// 	swDest: "./dist/sw.js",
+		// 	clientsClaim: true,
+		// 	skipWaiting: true,
+		// })
 	]
 };
